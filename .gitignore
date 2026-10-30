@@ -7,3 +7,5 @@ __pycache__/
 .DS_Store
 fixtures/*
 !fixtures/canonical-style-names.json
+build/
+.playwright-cli/

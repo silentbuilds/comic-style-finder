@@ -1,4 +1,4 @@
-// Run with playwright-cli run-code --filename=test_browser.js in a disposable local session.
+// Run with playwright-cli run-code --filename=tests/test_browser.js in a disposable local session.
 // Resets only this browser session's finder localStorage.
 async page => {
   const checks=[],errors=[];

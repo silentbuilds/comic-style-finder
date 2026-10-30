@@ -4,6 +4,20 @@ User-facing changes follow Keep a Changelog. Each public release uses Semantic V
 
 ## Unreleased
 
+### Added
+
+- Visitor guide with a sample gallery, illustrated walkthrough, copied prompt example, social preview and MIT license.
+- Development guide preserving the technical documentation and media-reproduction instructions.
+
+### Changed
+
+- Organize tests in `tests/`, tooling in `scripts/` and artwork sources in `art/sources/`.
+- Build the release HTML into ignored `build/` output; Vercel rebuilds the same standalone into `dist/index.html`. Application behavior, prompts, scoring and sample artwork are unchanged.
+
+### Removed
+
+- Generated versioned HTML from the repository root; the published release download remains available.
+
 ## [0.1.0] - 2026-10-30
 
 ### Added

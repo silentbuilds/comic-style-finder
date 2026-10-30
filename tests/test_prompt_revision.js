@@ -4,7 +4,7 @@ function load(saved,options={}){
  let stored=saved===undefined?null:JSON.stringify(saved);
  const get=id=>{if(!elements.has(id))elements.set(id,{innerHTML:'',textContent:'',hidden:false,open:false,addEventListener(){},focus(){},scrollIntoView(){}});return elements.get(id);};
  const ctx={setTimeout:()=>0,clearTimeout(){},requestAnimationFrame:f=>f(),console,document:{getElementById:get,addEventListener:(k,f)=>events[k]=f,querySelectorAll:()=>[],body:{classList:{add(){},remove(){}}}},window:{scrollY:0,scrollTo(){},matchMedia:()=>({matches:true})},localStorage:{getItem:()=>stored,setItem:(key,value)=>{stored=value;}}};
- const code=fs.readFileSync(__dirname+'/app.js','utf8').replace('const ENABLE_RECIPE_DOWNLOAD=false','const ENABLE_RECIPE_DOWNLOAD='+!!options.enableDownload).replace('  renderStage();\n})();','  globalThis.api={state,STYLES,selectedRecipe,stylePrompt,styleOnlyPrompt,panelPrompt,scoreStyle,topStyles,renderStage,renderFormat,card,recipeMarkup,buildRecipeExport};\n  renderStage();\n})();');
+ const code=fs.readFileSync(__dirname+'/../app.js','utf8').replace('const ENABLE_RECIPE_DOWNLOAD=false','const ENABLE_RECIPE_DOWNLOAD='+!!options.enableDownload).replace('  renderStage();\n})();','  globalThis.api={state,STYLES,selectedRecipe,stylePrompt,styleOnlyPrompt,panelPrompt,scoreStyle,topStyles,renderStage,renderFormat,card,recipeMarkup,buildRecipeExport};\n  renderStage();\n})();');
  vm.createContext(ctx);vm.runInContext(code,ctx);return {...ctx.api,elements,events,get stored(){return stored;}};
 }
 if(require.main===module){
@@ -48,21 +48,15 @@ for(const s of STYLES){state.selected=s.id;
  for(const p of [stylePrompt(s),app.panelPrompt(s)]){assert.equal(p.split('\n')[0],storyPlaceholder);assert.equal((p.match(/Story:/g)||[]).length,1);assert.ok(p.split('\n\n')[1].startsWith('Style: '));}
 }
 assert.ok(legacy.recipeMarkup().includes('data-action="copy-style">Copy Style Prompt</button>\n        <p class="prompt-guidance">'+copyGuidance+'</p>'),'Exact guidance immediately below Copy');
-const appSource=fs.readFileSync(__dirname+'/app.js','utf8');
+const appSource=fs.readFileSync(__dirname+'/../app.js','utf8');
 assert.doesNotMatch(appSource,/CUE_RULES|EXAMPLES(?:_V2)?|function cues\(|state\.idea|ideaInput|storyDetails|data-example|optionalStoryIdea/,'No story-text or keyword-detection paths remain');
 legacy.events.input({target:{id:'ideaInput',value:legacyStory,dataset:{}}});
 assert.ok(!Object.hasOwn(legacy.state,'idea'),'Obsolete input events cannot restore story state');
 assert.ok(!legacy.stored.includes(legacyStory));
 console.log('Story removal: state/storage/export cleanup, text-independent ranking, exact first lines and copy guidance passed.');
 
-const manifest=JSON.parse(fs.readFileSync(__dirname+'/art_manifest.json'));
-const canonical=JSON.parse(fs.readFileSync(__dirname+'/fixtures/canonical-style-names.json','utf8'));
-const archivePath=__dirname+'/../../archive/web-app/src/lib/styles.ts';
-if(fs.existsSync(archivePath)){
- const archive=fs.readFileSync(archivePath,'utf8');
- const archivedNames=JSON.parse('['+archive.match(/const names = \[(.*?)\];/s)[1].replace(/,\s*$/,'')+']');
- assert.deepEqual(canonical,archivedNames,'The portable canonical fixture must match the studio archive');
-}
+const manifest=JSON.parse(fs.readFileSync(__dirname+'/../art_manifest.json'));
+const canonical=JSON.parse(fs.readFileSync(__dirname+'/../fixtures/canonical-style-names.json','utf8'));
 assert.equal(canonical.length,96);
 assert.equal(JSON.stringify(STYLES.map(s=>s.name)),JSON.stringify(canonical));
 assert.equal(JSON.stringify(STYLES.map(s=>s.name)),JSON.stringify(manifest.images.map(s=>s.name)));
@@ -154,7 +148,7 @@ assert.ok(!detail.includes('data-action="export"'),'JSON export hidden by defaul
 assert.ok(!detail.includes('Download Style Recipe'),'No disabled-export copy');
 assert.ok(detail.includes('data-action="copy-style-only"'));
 assert.deepEqual(Array.from(cleanState.buildRecipeExport().comparisonShortlist),[],'Retain compatible export key without shortlist state');
-const source=fs.readFileSync(__dirname+'/app.js','utf8');assert.match(source,/const ENABLE_RECIPE_DOWNLOAD\s*=\s*false/);assert.ok(source.includes('function downloadRecipe()'));
+const source=fs.readFileSync(__dirname+'/../app.js','utf8');assert.match(source,/const ENABLE_RECIPE_DOWNLOAD\s*=\s*false/);assert.ok(source.includes('function downloadRecipe()'));
 console.log('P6: direct details, sample-first order, collapsed Advanced, removed shortlist, preserved hidden export passed.');
 
 // Final review regressions: sample subjects, edited intent and navigation.

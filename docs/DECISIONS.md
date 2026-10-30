@@ -1,5 +1,12 @@
 # Decisions
 
+## 30 October 2026 — Public presentation and repository layout
+
+- Keep the visitor README under 120 lines; preserve its former technical sections in `docs/DEVELOPMENT.md`.
+- Reuse accepted previews for README composites; capture actual app states at 1280×800. Do not modify app behavior, prompts, scoring or artwork.
+- Keep tests in `tests/`, tooling in `scripts/`, and masters/legacy source art in `art/sources/`. Build standalone downloads into ignored `build/`; publish only `dist/index.html`.
+- Add MIT licensing with holder silentbuilds and a sample-image attribution note. Keep v0.1.0 and its release tag unchanged; describe this work under Unreleased.
+
 ## 30 October 2026 — First public release v0.1.0
 
 - Adopt the exact studio SemVer policy in root AGENTS.md. This app's first public release is 0.1.0; V2.0–V2.2 and v0.2–v0.3 were unpublished internal labels. Only explicit prepare-release tasks change product versions. Record future work under Unreleased in CHANGELOG.md.
@@ -41,7 +48,7 @@ Agreed with the owner. Don't reopen them without the owner. Moved here from `COD
 
 ## Engineering
 
-- **96 canonical IDs and names are fixed.** They match `archive/web-app/src/lib/styles.ts` exactly, in the same order (checked 17 Oct 2026).
+- **96 canonical IDs and names are fixed.** They match the original catalog exactly, in the same order (checked 17 Oct 2026); `fixtures/canonical-style-names.json` now pins that catalog locally.
 - **The catalog mixes** visual aesthetics, techniques, cultural influences, genres and publishing formats. Don't present it as 96 mutually exclusive rendering styles.
 - **Matching stays transparent.** `GENRES`, `MOODS`, `FORMATS`, `FINISHES` and `FAMILIES` are editorial mappings. Show reasons; don't show made-up probabilities, and don't present keyword cues as AI analysis.
 - **Comparison images show different scenes.** Don't claim controlled same-scene comparisons.
@@ -50,7 +57,7 @@ Agreed with the owner. Don't reopen them without the owner. Moved here from `COD
 
 ## Studio
 
-- **Lives at `apps/comic-style-finder/`** (moved in 17 Oct 2026). It owns the 96-style catalog for the studio. If story-to-comics or another app needs the catalog, move it to `shared/` first (studio `AGENTS.md`).
+- **Repository boundary.** This public repository owns the 96-style catalog. Historically it moved into the originating studio on 17 Oct 2026; the studio rule was to move shared data into a shared directory only when story-to-comics or another app needed it. That integration remains outside this repository.
 
 ## 29 October 2026 — P1
 

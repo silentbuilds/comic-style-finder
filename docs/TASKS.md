@@ -2,6 +2,14 @@
 
 **Status (30 October 2026):** First public release v0.1.0 published; approved typography refinement and A–D follow-up complete; earlier P1–P6 revision and story-free follow-up retained. Offline vanilla HTML/CSS/JS; no dependencies added, no images generated/replaced, no story-to-comics integration. Existing unrelated working-copy changes remain outside these commits.
 
+## Public presentation — 30 October 2026
+
+- [x] Replace the technical landing README with a visitor guide, real prompt example, format table, privacy and author/license details.
+- [x] Preserve former technical sections in DEVELOPMENT.md and correct repository-local paths.
+- [x] Reuse existing samples for the hero/social preview and capture the three questions, results and detail with Playwright CLI.
+- [x] Move tests/tooling/art sources into their dedicated directories and remove generated HTML from the root.
+- [x] Verify all tests, source/art checksums, README links and unchanged deployment bytes; prepare the approved main-branch commit/push. No version bump or app/art changes.
+
 ## First public release — 30 October 2026
 
 - [x] Check existing tags before making release changes: none exist.

@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "buildCommand": "mkdir -p dist && cp comic-style-finder-v0.1.0.html dist/index.html",
+  "buildCommand": "python3 scripts/build_standalone.py && mkdir -p dist && cp build/comic-style-finder-v0.1.0.html dist/index.html",
   "outputDirectory": "dist"
 }

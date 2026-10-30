@@ -1,4 +1,4 @@
-// Run with playwright-cli run-code --filename=test_typography.js at the local source URL.
+// Run with playwright-cli run-code --filename=tests/test_typography.js at the local source URL.
 // Uses only the disposable browser session's storage.
 async page => {
   const measurements=[];

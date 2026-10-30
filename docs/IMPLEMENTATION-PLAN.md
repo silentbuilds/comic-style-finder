@@ -3,7 +3,7 @@
 Goal: make the existing offline finder produce useful prompts and a shorter selection flow.
 Architecture: retain the vanilla JS catalog, scoring and local state; replace inferred descriptors with explicit sample-prompt metadata. No dependencies, image edits, shared data, or integration. Work on main as requested.
 
-Files: app.js (data, scoring, prompts, UI); test_logic.js, test_regressions.js, test_browser.js and test_prompt_revision.js (behavior); index.html and styles.css (details flow); build_standalone.py, test_release.py, verify_release.py and README.md (v0.2 packaging); docs/TASKS.md, DECISIONS.md and SESSION-LOG.md (evidence).
+Files: app.js (data, scoring, prompts, UI); tests/test_logic.js, tests/test_regressions.js, tests/test_browser.js and tests/test_prompt_revision.js (behavior); index.html and styles.css (details flow); scripts/build_standalone.py, tests/test_release.py, scripts/verify_release.py and README.md (v0.2 packaging); docs/TASKS.md, DECISIONS.md and SESSION-LOG.md (evidence).
 
 For each priority: add regression assertions, observe failure, implement, run checks, document and commit.
 

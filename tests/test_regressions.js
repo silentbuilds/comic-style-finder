@@ -7,7 +7,7 @@ function load(saved){
   const get=id=>{if(!elems.has(id))elems.set(id,{id,innerHTML:'',hidden:false,addEventListener(){}});return elems.get(id);};
   const context={setTimeout:()=>0,clearTimeout(){},document:{getElementById:get,addEventListener(){}},window:{},localStorage:{getItem:()=>saved===undefined?null:JSON.stringify(saved),setItem(){}}};
   vm.createContext(context);
-  const source=fs.readFileSync(__dirname+'/app.js','utf8').replace('  renderStage();\n})();','  globalThis.review={state,selectedRecipe,stylePrompt,buildRecipeExport,catalogMarkup,STYLES};\n  renderStage();\n})();');
+  const source=fs.readFileSync(__dirname+'/../app.js','utf8').replace('  renderStage();\n})();','  globalThis.review={state,selectedRecipe,stylePrompt,buildRecipeExport,catalogMarkup,STYLES};\n  renderStage();\n})();');
   vm.runInContext(source,context);
   return {...context.review,elems};
 }

@@ -2,6 +2,16 @@
 
 Newest first.
 
+## 30 October 2026 — Public repository presentation
+
+Rewrote the public README for visitors: live link, four badges, six-style hero, four-step walkthrough, exact Watercolor prompt output, generation-format table, browser-local privacy, two-line local setup, Rocky attribution and MIT license. Preserved every former technical section in DEVELOPMENT.md and corrected current paths. Added the requested sample-image attribution note and MIT holder silentbuilds. This change is confined to the public app-only repository; other studio apps and the shared-domain router are untouched.
+
+Moved eight test files into tests/, four existing utilities into scripts/, 289 artwork source/master/sidecar files into art/sources/, and the unchanged contact sheet into art/. The manifest changes only those source paths. The standalone now builds into ignored build/ and remains available as the existing release asset. Vercel builds from source and publishes only dist/index.html. Removed the generated root HTML; no version bump or tag change.
+
+Pillow composites reuse six accepted art previews. hero.jpg is 1600×870; social-preview.png is 1280×640 with all text verified inside the central 1040×520 area. The real Playwright CLI capture records five 1280×800 states: questions 1–3, results and style detail. flow.gif is 590,814 bytes, below 3 MB. Added repeatable capture/composition scripts. Visually checked the composites, walkthrough frames and GitHub-rendered README; local Markdown links resolve and the README is 67 lines.
+
+Checks pass: app syntax; five Node suites including the 1,080-case ranking matrix, 120 prompt combinations and 45 format/channel/approach combinations; all 73 browser checks; typography/contrast/overflow at 1280×800, 390×844, 320×800 and 640×400; artwork provenance and all 96 embedded bytes; isolated build and stale HTML/CSS/JS rejection. Executed the exact vercel.json build command and confirmed it produces only index.html. The rebuilt and publish-output SHA-256 is still 7ce652122bdfcfdc9f288d1756b54befea0bc70430a5b4e2756e3489334dff3c (7,130,224 bytes). The app HTML/CSS/JS, all previews, moved art sources and contact sheet are byte-identical to the prior commit. No app behavior, scoring, prompts or art changed. The owner explicitly approved pushing to public main after checks pass; GitHub About/topics/social-preview settings are supplied for the owner to set.
+
 ## 30 October 2026 — Publish v0.1.0 to GitHub and Vercel
 
 Completed the GitHub CLI authorization after the owner explicitly approved its displayed OAuth scopes. Created the public app-only repository https://github.com/silentbuilds/comic-style-finder with fresh history at bf30fb8, tagged comic-style-finder/v0.1.0, and published the GitHub release with the standalone HTML and SHA-256 download. SOURCE.md records the studio release commit 53092be and export boundary. Internal build HTML and obsolete agent handoffs are excluded from the public snapshot; the other studio apps and their history are not published. The public source snapshot passes all five Node suites and release checks independently of the studio archive.
@@ -14,7 +24,7 @@ Both Vercel deployments report success. The public custom-domain route returns H
 
 Added the owner's exact SemVer policy to root AGENTS.md and updated the studio README's stale prototype status. These two studio-level edits are explicitly part of release preparation. Added CHANGELOG.md with an empty Unreleased section, the dated 0.1.0 user-facing feature summary, and four lines confirming that V2.0–V2.2 and v0.2–v0.3 were unpublished internal builds.
 
-Version audit: index.html title and header badge change v0.3 to v0.1.0 (badge copy now Early release); build_standalone.py writes comic-style-finder-v0.1.0.html; verify_release.py updates its description, target and title/badge expectations; test_release.py updates output paths and checks changelog structure; test_browser.js adds current title/badge assertions. README's heading, open-file instructions and current-version explanation, TASKS' current status and the studio README are updated. Removed an obsolete V2.1 label in a CSS comment. Historical session/decision/plan entries, old standalone snapshots and untracked handoff files retain their historical labels. No product-version constant existed in app.js; JSON schema version 2 and the existing storage key are retained for compatibility.
+Version audit: index.html title and header badge change v0.3 to v0.1.0 (badge copy now Early release); scripts/build_standalone.py writes comic-style-finder-v0.1.0.html; scripts/verify_release.py updates its description, target and title/badge expectations; tests/test_release.py updates output paths and checks changelog structure; tests/test_browser.js adds current title/badge assertions. README's heading, open-file instructions and current-version explanation, TASKS' current status and the studio README are updated. Removed an obsolete V2.1 label in a CSS comment. Historical session/decision/plan entries, old standalone snapshots and untracked handoff files retain their historical labels. No product-version constant existed in app.js; JSON schema version 2 and the existing storage key are retained for compatibility.
 
 The owner approved including current release assets after a hash comparison showed the tracked previews differed from the manifest. Include all 96 current previews and raster masters, 192 prompt sidecars, 96 legacy SVG references, the character reference, contact sheet and existing preparation scripts. No artwork was generated or modified. Added an app-local canonical-name fixture after an app-only export reproduced a missing-archive test failure; the test still checks the studio archive when present. Vercel configuration copies only the verified standalone to dist/index.html, excluding internal builds and source assets from the deployed site.
 
@@ -74,7 +84,7 @@ Saved state is still whitelist-validated and is now persisted on startup, discar
 
 Verification: the new regression first failed on retained story state, then passed after removal. JS syntax, all four Node suites, the 120-choice prompt grammar/first-line checks and 1,080-case ranking matrix pass. All 96 style names/metadata integrity and recipe uniqueness checks remain green. The ranking matrix is unchanged because it previously used no story text. Disposable browser: 48 assertions pass at desktop and phone widths, including exact clipboard openings, guidance placement, removed step-1 controls, storage cleanup, preserved recipe edits and approach styling. No JavaScript page errors. The CLI browser blocks file URLs, so UI checks used a loopback-only server; no internet access was needed.
 
-verify_release.py and test_release.py pass using the existing bundled Python runtime, including source/standalone parity, all 96 embedded image bytes, provenance checks and stale-build detection. A fresh read-only review independently ran all four Node suites and found no actionable critical, important or minor defects. Mechanical UI checks reported only the same incumbent small-type/tracking/font/palette warnings. No sample images, dependencies, versions or other apps were changed.
+scripts/verify_release.py and tests/test_release.py pass using the existing bundled Python runtime, including source/standalone parity, all 96 embedded image bytes, provenance checks and stale-build detection. A fresh read-only review independently ran all four Node suites and found no actionable critical, important or minor defects. Mechanical UI checks reported only the same incumbent small-type/tracking/font/palette warnings. No sample images, dependencies, versions or other apps were changed.
 
 ## 29 October 2026 — P6, verification and review
 
@@ -82,11 +92,11 @@ Implemented the direct details flow and removed shortlist/modal UI/state. JSON d
 
 Test-first evidence: P6 initially failed on retained shortlist state. The new flow passed after removal. Fresh read-only review found three important defects. New regressions failed first on borrowed sample scenes, then missing edit precedence, then discarded selection/edits. Generalized scene-specific metadata, added explicit field/approach precedence and a separate details view marker; all three regressions and the whole suite now pass. No critical review findings; no review minors deferred. The reviewer independently ran all four Node suites, but did not assess image fidelity or repeat browser/release checks; those checks were run separately in this session.
 
-Final results: node --check, test_logic.js, test_regressions.js, test_prompt_revision.js and test_matching_matrix.js pass. The prompt suite covers 96 signatures/recipes/fit notes, all 120 feeling × format × approach combinations, state migrations, literal story text, navigation and flag behavior. Ranking audit: 1,080 combinations; 54/1,008 explicit pairs preserve the neutral ranking, 36/864 format comparisons and 163/720 approach comparisons preserve their respective baseline rankings. All unchanged pairs listed in MATCHING-AUDIT.md.
+Final results: node --check, tests/test_logic.js, tests/test_regressions.js, tests/test_prompt_revision.js and tests/test_matching_matrix.js pass. The prompt suite covers 96 signatures/recipes/fit notes, all 120 feeling × format × approach combinations, state migrations, literal story text, navigation and flag behavior. Ranking audit: 1,080 combinations; 54/1,008 explicit pairs preserve the neutral ranking, 36/864 format comparisons and 163/720 approach comparisons preserve their respective baseline rankings. All unchanged pairs listed in MATCHING-AUDIT.md.
 
 Disposable Chromium browser: 42 assertions pass at 1280×900 and 390×844, including prompt/full-brief clipboard contents, fallback focus, recipe reload, editing story without losing recipe edits, all mobile stages without horizontal overflow, reduced motion, legacy migration and escaped HTML. File-based v0.2 works with network disabled; its sample decodes from embedded data. Blocking localStorage still allows browsing and selection. No JavaScript page errors. Missing favicon produces a harmless local HTTP 404 in the source server; no app request depends on it.
 
-Release checks used the already bundled Pillow-enabled Python runtime: verify_release.py and test_release.py pass, including all 96 image/master prompt hashes, source/standalone parity and rejection of stale HTML/CSS/JS. Additional before/after checksums confirm all 192 preview/master files are unchanged. No network research, dependency installs, sample generation, integration, push or other-app edits were performed.
+Release checks used the already bundled Pillow-enabled Python runtime: scripts/verify_release.py and tests/test_release.py pass, including all 96 image/master prompt hashes, source/standalone parity and rejection of stale HTML/CSS/JS. Additional before/after checksums confirm all 192 preview/master files are unchanged. No network research, dependency installs, sample generation, integration, push or other-app edits were performed.
 
 Rulings: the user explicitly requested a version bump, so v0.1 → v0.2 follows the current working-copy convention instead of assuming the pasted V2.2 label. Recreated requested deleted docs from HEAD. Existing baseline edits in touched app files are retained in the relevant commits; existing image/other-app edits remain unstaged. The source manifest is tracked for provenance. Mechanical UI detector warnings about incumbent small type, tracking and palette/font were recorded without broadening the requested work into a redesign. Product image fidelity remains unverified until the owner check.
 
@@ -117,15 +127,15 @@ Newest first. Each entry covers what was done, what was learned, and where it st
 
 ## 2026-10-17: moved into the studio (Claude)
 
-- **Moved in:** the owner moved V2.1, built in another AI app, into `apps/comic-style-finder/`. It had no git history, and was added to the studio repo as plain files.
+- **Moved in:** the owner moved V2.1, built in another AI app, into the originating studio’s app folder. It had no git history, and was added to the studio repo as plain files.
 - **Changed:**
   - `CODEX_HANDOFF.md` became `AGENTS.md`, with its decisions in `docs/DECISIONS.md` and its next ideas in `docs/TASKS.md`.
   - Added `CLAUDE.md`, `docs/TASKS.md` and `docs/SESSION-LOG.md`.
-  - `build_standalone.py` now writes `dist/comic-style-finder-v2.1.html`. After the move, its old path (`../..`) pointed at the studio root.
+  - `scripts/build_standalone.py` now writes the historical v2.1 standalone in build output. After the move, its old relative root pointed at the studio root.
   - The two built bundles (`comic-style-finder-v2.html` and `-v2.1.html`, about 4.5 MB each) moved to `dist/`, which isn't committed.
   - App code is unchanged.
 - **Checked:**
-  - `node --check app.js` and `node test_logic.js` pass.
-  - The 96 style names match `archive/web-app/src/lib/styles.ts` in the same order.
-- **Noted:** README listed `contact-96.jpg`, but the file isn't in the folder. I removed that line.
+  - `node --check app.js` and `node tests/test_logic.js` pass.
+  - The 96 style names matched the original catalog in the same order; that catalog is now pinned by `fixtures/canonical-style-names.json`.
+- **Noted:** README listed `art/contact-96.jpg`, but the file isn't in the folder. I removed that line.
 - **Stopped at:** F1, the browser review.

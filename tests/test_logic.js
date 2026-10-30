@@ -1,5 +1,5 @@
 const fs=require('node:fs');const vm=require('node:vm');const assert=require('node:assert/strict');
-const script=fs.readFileSync(__dirname+'/app.js','utf8').replace('  renderStage();\n})();','  globalThis.__test={state,STYLES,topStyles,scoreStyle,renderStage,renderResults,catalogMarkup,selectedRecipe,stylePrompt,buildRecipeExport,GENRES};\n  renderStage();\n})();');
+const script=fs.readFileSync(__dirname+'/../app.js','utf8').replace('  renderStage();\n})();','  globalThis.__test={state,STYLES,topStyles,scoreStyle,renderStage,renderResults,catalogMarkup,selectedRecipe,stylePrompt,buildRecipeExport,GENRES};\n  renderStage();\n})();');
 const elems=new Map();const getElem=(id)=>{if(!elems.has(id))elems.set(id,{id,innerHTML:'',textContent:'',hidden:false,addEventListener(){},scrollIntoView(){},setAttribute(){},removeAttribute(){},style:{},open:false});return elems.get(id)};
 const local={};const sandbox={console,setTimeout,clearTimeout,document:{getElementById:getElem,addEventListener(){},body:{classList:{add(){},remove(){}}}},window:{scrollY:0,scrollTo(){},COMIC_ART_ASSETS:{}},localStorage:{getItem:(k)=>local[k]||null,setItem:(k,v)=>{local[k]=v}},};
 vm.createContext(sandbox);vm.runInContext(script,sandbox);

@@ -17,8 +17,9 @@ def build_html(root):
     return '\n'.join(line.rstrip() for line in html.splitlines())+'\n'
 
 if __name__=='__main__':
-    root=Path(__file__).resolve().parent
+    root=Path(__file__).resolve().parent.parent
     html=build_html(root)
-    output=root/'comic-style-finder-v0.1.0.html'
+    output=root/'build/comic-style-finder-v0.1.0.html'
+    output.parent.mkdir(exist_ok=True)
     output.write_text(html,encoding='utf-8')
     print(output,output.stat().st_size,'bytes; 96 inlined images')

@@ -11,7 +11,7 @@ import json
 import xml.etree.ElementTree as ET
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parent.parent
 RDF='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
 DC='http://purl.org/dc/elements/1.1/'
 
@@ -76,7 +76,7 @@ def main():
     y=12*cell_h
     draw.text((20,y+12),'96 COMIC REFERENCES · ORIGINAL CHARACTERS',font=title,fill='#203831')
     draw.text((20,y+49),'AI-generated illustrative interpretations · technique, genre and format cues · not historical exemplars',font=font,fill='#5f6d64')
-    sheet.save(ROOT/'contact-96.jpg',quality=91,subsampling=0)
+    sheet.save(ROOT/'art/contact-96.jpg',quality=91,subsampling=0)
     print('Prepared 96 aspect-preserving WebP previews, embedded prompts, hashes and contact sheet.')
 
 
