@@ -4,11 +4,13 @@ An offline, selection-first finder for a standalone comic prompt you can paste i
 
 ## Open it
 
+[Open the live finder](https://ai.rockyfu.com/comic-style-finder) · [GitHub repository](https://github.com/silentbuilds/comic-style-finder) · [v0.1.0 downloads](https://github.com/silentbuilds/comic-style-finder/releases/tag/comic-style-finder/v0.1.0)
+
 Open `comic-style-finder-v0.1.0.html` in a browser. It contains the CSS, JavaScript and all 96 current sample images. No network, account, API key or dependency installation is needed.
 
 For editable source, open `index.html` or serve this folder locally with `python3 -m http.server 8000`.
 
-For Vercel, use this app as the project root. `vercel.json` publishes only the verified standalone as `dist/index.html`; it does not publish source masters, tests or internal builds. The intended shared-site address is `https://ai.rockyfu.com/comic-style-finder`. Adding that subpath requires a rewrite in the existing project serving `ai.rockyfu.com`; keep its current root page intact.
+For Vercel, use this app as the project root. `vercel.json` publishes only the verified standalone as `dist/index.html`; it does not publish source masters, tests or internal builds. The shared-site address is `https://ai.rockyfu.com/comic-style-finder`. Its rewrite, registry and sitemap entry live in `silentbuilds/frontier-models`, which owns the domain. The app-only source repository starts with the first public release; its standalone is byte-identical to the studio release artifact. The existing root page and project routes are preserved.
 
 ## Flow
 

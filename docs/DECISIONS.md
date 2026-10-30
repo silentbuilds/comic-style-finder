@@ -8,7 +8,8 @@
 - The owner explicitly approved committing the current artwork and verification inputs after discovering that tracked previews differed from the manifest. Include previews, raster masters, sidecars, legacy SVG references, contact sheet and existing preparation scripts so the release rebuilds from a clean checkout. Generate no new art.
 - Pin canonical style names in an app-local fixture; compare with the studio archive when available. App-only GitHub publication must not require or publish unrelated studio apps.
 - Existing local tags before this release: none. Create comic-style-finder/v0.1.0 after verification, without deleting or renaming tags.
-- Owner's deployment destination: GitHub account silentbuilds, then ai.rockyfu.com/comic-style-finder on Vercel. GitHub CLI/browser and Vercel browser were signed out when checked; publishing remains pending authentication and inspection of the existing site's routing.
+- Published source: silentbuilds/comic-style-finder, with fresh app-only history from the studio release. Public source commit bf30fb8 and studio release commit 53092be carry the same scoped tag and byte-identical standalone; SOURCE.md records the export boundary. Publish only dist/index.html on Vercel.
+- Public URL: https://ai.rockyfu.com/comic-style-finder. The separate silentbuilds/frontier-models routing commit 3dff877 adds the rewrite pair, registry entry, sitemap entry and portfolio link. Preserve its existing root, models, SEA Compass and AI Developer GTM routes. Record this offline tool as analytics not enabled; existing sites retain their configured analytics.
 
 ## 30 October 2026 — Approved typography refinement
 

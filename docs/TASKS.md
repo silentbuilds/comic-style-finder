@@ -1,14 +1,14 @@
 # Tasks
 
-**Status (30 October 2026):** First public release v0.1.0 prepared; approved typography refinement and A–D follow-up complete; earlier P1–P6 revision and story-free follow-up retained. Offline vanilla HTML/CSS/JS; no dependencies added, no images generated/replaced, no story-to-comics integration. Existing unrelated working-copy changes remain outside these commits.
+**Status (30 October 2026):** First public release v0.1.0 published; approved typography refinement and A–D follow-up complete; earlier P1–P6 revision and story-free follow-up retained. Offline vanilla HTML/CSS/JS; no dependencies added, no images generated/replaced, no story-to-comics integration. Existing unrelated working-copy changes remain outside these commits.
 
 ## First public release — 30 October 2026
 
 - [x] Check existing tags before making release changes: none exist.
 - [x] Adopt the studio SemVer policy and add CHANGELOG.md with an empty Unreleased section, the v0.1.0 entry and internal-build history.
 - [x] Set the current UI/title, standalone filename and release checks to v0.1.0; preserve JSON schema version 2 and historical records.
-- [x] Run all checks and inspect the rebuilt standalone; prepare the verified release commit and tag comic-style-finder/v0.1.0.
-- [ ] Publish to silentbuilds on GitHub and deploy at ai.rockyfu.com/comic-style-finder; GitHub CLI OAuth approval is pending.
+- [x] Run all checks and inspect the rebuilt standalone; commit and tag comic-style-finder/v0.1.0.
+- [x] Publish the app-only silentbuilds/comic-style-finder GitHub repository and release; deploy at ai.rockyfu.com/comic-style-finder. Verify live artifact equality, 73 browser checks and existing project routes.
 
 ## Typography — 30 October 2026
 

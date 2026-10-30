@@ -16,7 +16,7 @@ Select a style and produce a reusable Style block, with a full prompt as a conve
 
 ## Operating Context
 
-An offline, local browser tool. Users choose a story type, reader feeling, reading format and optional approach; browse or filter 96 styles; then copy a prompt into their preferred AI image tool. Advanced visual edits update both copy outputs.
+An offline browser tool, also hosted at https://ai.rockyfu.com/comic-style-finder. The downloadable standalone runs locally without network access. Users choose a story type, reader feeling, reading format and optional approach; browse or filter 96 styles; then copy a prompt into their preferred AI image tool. Advanced visual edits update both copy outputs.
 
 ## Capabilities and Constraints
 

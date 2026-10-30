@@ -2,6 +2,14 @@
 
 Newest first.
 
+## 30 October 2026 — Publish v0.1.0 to GitHub and Vercel
+
+Completed the GitHub CLI authorization after the owner explicitly approved its displayed OAuth scopes. Created the public app-only repository https://github.com/silentbuilds/comic-style-finder with fresh history at bf30fb8, tagged comic-style-finder/v0.1.0, and published the GitHub release with the standalone HTML and SHA-256 download. SOURCE.md records the studio release commit 53092be and export boundary. Internal build HTML and obsolete agent handoffs are excluded from the public snapshot; the other studio apps and their history are not published. The public source snapshot passes all five Node suites and release checks independently of the studio archive.
+
+Created the Vercel project from the GitHub repository. Its production deployment serves the verified standalone at https://comic-style-finder.vercel.app. In the separate silentbuilds/frontier-models repository, read its agent/project/registry rules and committed 3dff877: two /comic-style-finder rewrites, the central registry and sitemap entry, and one portfolio footer link. These cross-repository edits are required by the owner's requested ai.rockyfu.com/comic-style-finder deployment. Added a failing routing/registration regression, then passed all 47 shared-site tests. Kept the offline tool analytics-free and made that explicit in the registry; existing projects keep their analytics and routes.
+
+Both Vercel deployments report success. The public custom-domain route returns HTTP 200 and exactly 7,130,224 release bytes, SHA-256 7ce652122bdfcfdc9f288d1756b54befea0bc70430a5b4e2756e3489334dff3c, matching the studio standalone, GitHub release and Vercel app. All 73 live browser checks pass with no JavaScript page errors; typography, helper contrast, first-row visibility and overflow checks also pass at all four viewports. The separate live typography run hit navigation deadlines on repeated full downloads; the document then showed complete with the correct label. Re-ran the same layout assertions on the loaded production page using Reset finder between viewports, with a passing result and no shipping-code changes. /models-2026, /sea-compass and /gaid return HTTP 200; the production sitemap contains the new URL. Opened the live app for the owner. Updated current publication docs without changing the release artifact or moving either release tag.
+
 ## 30 October 2026 — Prepare first public release v0.1.0
 
 Added the owner's exact SemVer policy to root AGENTS.md and updated the studio README's stale prototype status. These two studio-level edits are explicitly part of release preparation. Added CHANGELOG.md with an empty Unreleased section, the dated 0.1.0 user-facing feature summary, and four lines confirming that V2.0–V2.2 and v0.2–v0.3 were unpublished internal builds.
