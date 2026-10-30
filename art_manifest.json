@@ -1,0 +1,969 @@
+{
+  "version": 1,
+  "createdAt": "2026-10-28",
+  "method": "OpenAI built-in image generation",
+  "identityReference": "art_src/character-reference.webp",
+  "limitations": "AI-generated illustrative interpretations of technique, genre and format cues; not historical exemplars or controlled renders.",
+  "images": [
+    {
+      "id": 1,
+      "name": "American Comic",
+      "file": "art/001.webp",
+      "master": "art_src/generated/001.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. American Comic. Nori lunges diagonally across a crumbling rooftop to catch a luminous seed, pot companion protected in a satchel. Strong foreshortening, heroic silhouette, dynamic low camera, thick-and-thin black brush outlines, bold flat primary colors, controlled halftone shadows, sharp impact shapes and kinetic composition. Athletic anatomy and high visual stakes.",
+      "generationFile": "exec-07e69eb4-f9ac-4e4e-a0bc-dba43ef31872.png",
+      "sha256": "c238db6527c40ae4f8dad98a05bf8f6803acae67f997afa81352b59b1fce6026",
+      "masterSha256": "c6faa04142449daf42a7ea7636098a24de5dd0fb3a95f51e1c4c6e06702ad3da"
+    },
+    {
+      "id": 2,
+      "name": "Manga (Japanese)",
+      "file": "art/002.webp",
+      "master": "art_src/generated/002.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Manga (Japanese). Dynamic black-and-white manga scene with two inset panels: main foreshortened Nori leaps between stones toward a falling luminous seed, insets of determined eyes and reaching hand; sprout in satchel. Crisp variable pen lines, white negative space, screentone dots, expressive face, directional speed lines, sharply black hair. No color or airbrush painting.",
+      "generationFile": "exec-bce6d109-d770-4017-9033-78aacfcdfadf.png",
+      "sha256": "12b401210d1529c7cae089470fd5538cc4f1a8b8ad7b02b9ac497af86eb9f1d8",
+      "masterSha256": "b63838c824090097dddd98c693013415fba8144324d7f82db6817e5d0f245963"
+    },
+    {
+      "id": 3,
+      "name": "European Bande Dessinée",
+      "file": "art/003.webp",
+      "master": "art_src/generated/003.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. European Bande Dessinée. Two broad story panels: Nori and pot companion arrive at a hillside village, then find the seed near a stone fountain. Clear contours, richly observed tiled roofs, shutters, cobblestones, deep navigable perspective; warm flat colors, unhurried readable staging. Environment and storytelling as important as character.",
+      "generationFile": "exec-4f7bc2db-1464-48cb-9cba-79b65b95a731.png",
+      "sha256": "65cec36950f29484d890305b6119d0b927f5f64e778f0a75bae62736bc46addb",
+      "masterSha256": "2cfd16fd7b0e15d12808e831489d8ffa9cc91fe5361e167b41d3ae5e03f6d867"
+    },
+    {
+      "id": 4,
+      "name": "Cartoon/Animated",
+      "file": "art/004.webp",
+      "master": "art_src/generated/004.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Cartoon/Animated. Expressive comedic anticipation-and-reaction scene: Nori stretched off balance reaching for a floating seed while the sprout pot tips with a startled face. Appealing squash-and-stretch pose, graceful curved silhouette, clear line of action, intentional shapes, clean cel shading and expressive eyebrows. Bright animation color keys.",
+      "generationFile": "exec-54887b27-3ee6-42ba-98bb-9d82dd4848d5.png",
+      "sha256": "07b149040096c0344e263a88ecbbd1afd01cec388b77ff6025264e625bcdaa4e",
+      "masterSha256": "bb67318324ac88702efc3da32337f81c2289e5d927a20c64a495d497e424f1e9"
+    },
+    {
+      "id": 5,
+      "name": "Chibi",
+      "file": "art/005.webp",
+      "master": "art_src/generated/005.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Chibi. Two-head-tall super-deformed Nori with extremely oversized head, tiny mitten hands, sparkling eyes and enormous delighted expression, hugging a luminous seed almost as big as their body. Adorable sprout pot. Deliberate extreme head/body proportions, tiny simplified limbs, bold clean contour, flat peach/orange/teal, a few delight marks. Distinctly chibi, not ordinary child proportions.",
+      "generationFile": "exec-55382160-f8c1-4bce-be62-fca2492ee80d.png",
+      "sha256": "98ccccdaa9a5258db8b94ee53824969dccfbf927bae9435b60101be0c9f035bb",
+      "masterSha256": "e759518b2ff159362a84a8d3f335b7bc29a695b8253dd572c48ab45f9b91990c"
+    },
+    {
+      "id": 6,
+      "name": "Webtoon",
+      "file": "art/006.webp",
+      "master": "art_src/generated/006.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Webtoon. A legible excerpt of a vertical-scroll comic: three vertically stacked, borderless story beats in ONE tall central sequence, the top panel a close-up of Nori spotting the seed, a broad quiet white gutter of anticipation, middle panel fingers reaching toward it, bottom panel an emotional close-up of the delighted face with the sprout. Use the whole landscape canvas thoughtfully: the sequence occupies about 75 percent of width, narrow margins, varying panel heights, eye follows down. Polished contemporary digital linework, luminous colors, clear expressive faces. Preserve vertical arrangement; NOT three side-by-side panels; no tiny text. The vertical pacing and change of shot must be visible even at thumbnail scale.",
+      "generationFile": "exec-e0d45a51-4177-42c2-b8ba-ee8ae17318d2.png",
+      "sha256": "b6c1559e3226ac6299655ac79e8feb92a1a29cdc38ead1904a4dcc0a4d0913ac",
+      "masterSha256": "6fb04b66d76d84cd3622e141a0e0ce1decf1cc1885d977e3de9cbe64330d0c33"
+    },
+    {
+      "id": 7,
+      "name": "Watercolor",
+      "file": "art/007.webp",
+      "master": "art_src/generated/007.webp",
+      "prompt": "Create one final production comic-style thumbnail for an offline comic reference catalog, style #07 Watercolor. Use the attached image ONLY as a character identity reference, not as a drawing/composition to reproduce. Nori is an original fictional young adult explorer with short dark blue-black bobbed hair, warm tan skin, an orange jacket and teal scarf; companion is a tiny two-leaf sprout in an orange terracotta pot. Reinterpret both naturally in authentic watercolor materials. Scene: Nori kneels by a rain-wet stream, gently catching a floating luminous seed while the little potted sprout sits on a mossy stone. A close, lyrical moment, expressive careful hands, rich botanical foreground and atmospheric depth. Make watercolor unmistakable: transparent overlapping pigment washes, granulating blue-green shadows, wet-into-wet edges, restrained dry-brush accents, unpainted paper highlights, textured cold-press paper; no clean digital vector outlines, no plastic gradients, no generic cartoon sticker aesthetic. Landscape composition around 1.472:1, entire meaningful scene inside frame, strong enough to read at 480x326. No text, captions, UI, watermarks, logos, signatures, famous characters, or imitation of any named artist. Palette naturally follows the medium, preserving orange/teal costume accents. This is an original illustrative interpretation, not a historical claim.",
+      "generationFile": "exec-6eeae6ad-25a8-47ca-aaa3-fe53c4f87a21.png",
+      "sha256": "f7658d6352700a572e3bacc3bb920cb91ed858ad673d77af188116cdc8c759ce",
+      "masterSha256": "06eddfbedfad464202f09921c4796dc373dca8534233ad53c832b944474e4eb4"
+    },
+    {
+      "id": 8,
+      "name": "Sketch/Pencil",
+      "file": "art/008.webp",
+      "master": "art_src/generated/008.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Sketch/Pencil. Intimate observational graphite drawing: Nori seated on a rock studying the seed in open hands, sprout pot at their feet. Obvious pencil tooth, construction lines, erased searching contours, varied pressure, cross-hatched hair and jacket folds, unfinished edges fading into off-white sketchbook paper. Thoughtfully observed face and hands. Strict monochrome graphite.",
+      "generationFile": "exec-0a66a381-3479-42a6-bbb8-82d5fa8e6c34.png",
+      "sha256": "35162e067035cebbeca7a69352ef240c5fd4b89806a1a1a9f233cebfccf65482",
+      "masterSha256": "ade0234310e48ccd445e79d4ce7580b39b9bec942a2cf00b5e0d061a246787a1"
+    },
+    {
+      "id": 9,
+      "name": "Pixel Art",
+      "file": "art/009.webp",
+      "master": "art_src/generated/009.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Pixel Art. True deliberately low-resolution pixel-art adventure: orange-jacket Nori sprite on mossy cliff platform, teal scarf blowing, reaching toward a golden seed; pot-sprout sprite nearby. Crisp square pixels, cohesive 16-color palette, hand-placed dithering, stepped silhouettes and pixel game world. NO smooth curves, anti-aliasing, painterly blur, glossy 3D or faux pixel filter.",
+      "generationFile": "exec-6a6d594c-125c-4d53-b749-ab3e2b24e46e.png",
+      "sha256": "f0c3564684373e8e0dab00e3bd9ffda43cbab4f996178e0421022ad793bcde39",
+      "masterSha256": "2e43f0ef34ab1380f040f7ab75736fba1fec0532a3e81a16b69d9411f120f738"
+    },
+    {
+      "id": 10,
+      "name": "Line Art",
+      "file": "art/010.webp",
+      "master": "art_src/generated/010.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Line Art. Nori kneels in a greenhouse examining a seed resting on a leaf, plant companion on a step. Elegant black outlines on pure white, restrained varied line weight, expressive face and hands, spacious composition. Form and narrative through contour and sparse hatching alone. No color, gray fills, washes or decorative texture.",
+      "generationFile": "exec-7328fa6f-0e09-4305-9e48-c66307c752ee.png",
+      "sha256": "869e71357151b4a0d1fa59df548008edc9c480c59fc28a1b304dac59c11a9577",
+      "masterSha256": "0b004fc9b6639e47c6ab8c1081a164269294dd39bceacfb61c7d810f8c29748c"
+    },
+    {
+      "id": 11,
+      "name": "Infographic Comic",
+      "file": "art/011.webp",
+      "master": "art_src/generated/011.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Infographic Comic. Visually explanatory three-stage sequence: Nori shows seed in palm, seed inside transparent soil pot with roots, then young two-leaf plant. Clear arrows, simple cutaway diagrams, grouped information, contrasting scale and strict visual hierarchy. Precise clean drawings, limited teal/orange/cream. Communicate the sequence without text, not meaningless decorative charts.",
+      "generationFile": "exec-47edc20e-80a1-4806-a08f-c948ffe5292b.png",
+      "sha256": "8f34dfc2e5d5f0b5533847059040dd002d93b30ab8a991abfc8e21b9dddabe94",
+      "masterSha256": "9a827a4a972d4e5e2d1322ee759ba3c603fb09b79311614a4874497f67fa8106"
+    },
+    {
+      "id": 12,
+      "name": "Noir/Graphic Novel",
+      "file": "art/012.webp",
+      "master": "art_src/generated/012.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Noir/Graphic Novel. Original inked detective scene at night: Nori crouches under a streetlamp examining a small glowing seed on wet pavement; the tiny potted plant companion in a shadowed doorway. Dramatic low camera angle, sharply cut diagonal pools of light, huge opaque black shadow shapes, rain and reflections, architecture and venetian-blind shadow pattern, tense mystery. Predominantly black and white with ONE restrained amber seed/jacket accent. Dense confident brush inks, stark chiaroscuro, adult graphic-novel staging. Human form must remain plausible, not an inverted white cartoon face or generic vector silhouette.",
+      "generationFile": "exec-388cec28-1af5-4d54-bb69-846bb9f6a27f.png",
+      "sha256": "d713bed60350649705a90c250b0704217043922d525e87c7493e58b45a3ccd72",
+      "masterSha256": "93680d6a8917e65bbccd131f76c815537e1ad2eb2e2e1a07f12c89363d4fce91"
+    },
+    {
+      "id": 13,
+      "name": "Comic Strip",
+      "file": "art/013.webp",
+      "master": "art_src/generated/013.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks or UI. Use only text explicitly requested below; otherwise no text. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Comic Strip. Exactly ONE ROW OF THREE PANELS placed LEFT, CENTER, RIGHT, reading LEFT TO RIGHT. Two VERTICAL gutters divide the landscape image into three tall rectangles, each one-third of total width. Never stack the panels vertically. Same medium camera: LEFT Nori waters the sprout pot proudly; CENTER the sprout bends a leaf and sprays water back at Nori; RIGHT Nori drenched and deadpan, sprout delighted. Clear setup/reversal/punchline. Economical newspaper-cartoon ink, flat warm spot colors, mostly white simple background. No dialogue, letters or captions. Character design: dark bob, orange jacket, teal scarf, two-leaf terracotta pot companion.",
+      "generationFile": "exec-030e8991-abb3-4e56-90df-5fb6e45ec769.png",
+      "sha256": "585f1358cd8e669f6fcc97ba7f7279b9e5df2df98550121646410cf6d1cdfbc2",
+      "masterSha256": "4aff4bd297271cf2f1f29667aa220b611c0eba4cac730bc3fd988a560841cbad"
+    },
+    {
+      "id": 14,
+      "name": "Surreal/Experimental",
+      "file": "art/014.webp",
+      "master": "art_src/generated/014.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Surreal/Experimental. Nori walks up a ribbon staircase curling into a gigantic open hand holding the seed; sprout casts a forest-shaped shadow and river flows upward. Impossible but meticulously connected space, shifting scale, poetic associations, striking asymmetry, indigo and coral, dreamlike painted forms. Original metaphor, not random stickers or generic rings.",
+      "generationFile": "exec-db527870-2b36-4685-a177-6968c4d47549.png",
+      "sha256": "e9e742486eadf115f2f415c66840f51b87ac5cf276f5c4a60cedab8bd96d8576",
+      "masterSha256": "987cb641658df77ea8a1de7fad1bce5b622910097a17749045208d8d9025ed37"
+    },
+    {
+      "id": 15,
+      "name": "3D/CGI Comic",
+      "file": "art/015.webp",
+      "master": "art_src/generated/015.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. 3D/CGI Comic. High-end original 3D animated-film still: Nori crouches with expressive modeled face and believable hands, holding translucent luminous seed above sprout companion. Dimensional sculpted hair, woven cloth jacket/scarf, ceramic pot roughness, subsurface skin lighting, contact shadows, global illumination, cinematic depth. Warm key/cool fill. Visibly volumetric rendered 3D, not flat vector.",
+      "generationFile": "exec-c803c675-fe2c-491b-bb6c-58d1b9f271c3.png",
+      "sha256": "e898eb0b5dec16bbb4fe537cbbf4215dfe204efe1d790f420e359eef45f6ab8e",
+      "masterSha256": "3ffb6bb80219a0b214f95e84b9db46035af12ce5bcf4c93b38e97bfbdfaa9efc"
+    },
+    {
+      "id": 16,
+      "name": "Traditional Ink (Chinese)",
+      "file": "art/016.webp",
+      "master": "art_src/generated/016.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Traditional Ink (Chinese). Expressive monochrome brush-and-ink scene: small Nori crosses a curved bridge amid misty mountains and bamboo toward seed and sprout. Calligraphic wet/dry brush strokes, rich pooling ink, varied black-to-gray washes, generous unpainted rice-paper space. Costume readable through economical strokes. No fake Chinese writing, red seals, logos or copied historic composition.",
+      "generationFile": "exec-508e0227-5b22-4c20-a222-13d1ca9f7f8f.png",
+      "sha256": "18df4afb1da409b010741b418630ba259812ebd01aa63c7c9e6875d0f1bf81f0",
+      "masterSha256": "8a693cea33c7262cb72b564b4d7a8061fc7955a39024577afa38eb0a632bc943"
+    },
+    {
+      "id": 17,
+      "name": "Underground Comix",
+      "file": "art/017.webp",
+      "master": "art_src/generated/017.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Underground Comix. Nori in a chaotic tiny urban alley arguing wordlessly with an oversized vending machine that hoards all luminous seeds; indignant sprout companion. Raw scratchy black ink, deliberately unruly crosshatching, grotesquely exaggerated expressions, dense irreverent visual satire, rough handmade panel border and punchy limited red. No drugs, hate symbols, copied characters or legible lettering.",
+      "generationFile": "exec-4a387587-e0c0-49a5-985d-e367db594a34.png",
+      "sha256": "3004bf358205da5e8b50552798bfd89d648d10d8a79828d9bd6c162792dde556",
+      "masterSha256": "87e8ac29d82ebcc9e08db742f55d026c147cbd461a01c18ede99d74f8bc33095"
+    },
+    {
+      "id": 18,
+      "name": "Mecha Anime",
+      "file": "art/018.webp",
+      "master": "art_src/generated/018.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Mecha Anime. Nori pilots an original orange-and-teal articulated exploration mech reaching to rescue a tiny luminous seed above a ruined city. Tiny pot companion visible in cockpit. Compelling scale contrast, mechanical joint detail, angular armor, precise hard-surface cel shading, dynamic extreme perspective, sparks and motion lines. Giant robot is main silhouette; no borrowed franchise designs.",
+      "generationFile": "exec-31931de1-001b-463d-80d0-f7ca37e7462c.png",
+      "sha256": "88d2b79c824607e91bd11d106f1c26a706b0b9813fedc4beabc49b31ddfb72ea",
+      "masterSha256": "1ff5d81855aa6cdabd0c4c7f6123d24c4b88daec4883464dc122da76dc5967f8"
+    },
+    {
+      "id": 19,
+      "name": "Gothic Romance Comic",
+      "file": "art/019.webp",
+      "master": "art_src/generated/019.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Gothic Romance Comic. Nori and a second clearly adult original traveler almost touch hands around a luminous seed in a moonlit ruined conservatory. Expressive longing, windswept scarf, ornate pointed arches, thorny vines and heavy velvet shadows. Deep plum/black/amber, elegant ink, dramatic romantic body language and candlelike rimlight. Intimate melancholy, no horror gore.",
+      "generationFile": "exec-3d88053e-c554-4ef4-809d-0812c6dbfd23.png",
+      "sha256": "e2b00408c6d09ed2d369e4c907a464e9734cc70572cbead945cec769e76362f6",
+      "masterSha256": "e707364f051321c59b74fc117b336c8bd9c424b9dc3a41983a8463aa6ff9e719"
+    },
+    {
+      "id": 20,
+      "name": "Ukiyo-e Inspired Comic",
+      "file": "art/020.webp",
+      "master": "art_src/generated/020.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Ukiyo-e Inspired Comic. Original woodblock-inspired composition of Nori on a curving bridge beside wind-bent pines, stylized curling river waves carrying a luminous seed toward the sprout pot. Flat indigo/ochre/vermilion planes, elegant keyblock contours, patterned garments, asymmetrical cropping and layered landscape depth. Visible subtle print grain, not painterly gradients. No copied famous wave, fake Japanese writing or seals.",
+      "generationFile": "exec-efe04508-7a3d-4c4c-9de9-b14cbd507015.png",
+      "sha256": "1393ada6f40f4a00ba88ce10134532834d0ddb6ddb71a1f7467b8608d931d99c",
+      "masterSha256": "d18c6779e0190f2c8d38c1478440519a03ae649e06f88c1fbabcbc123f35d37f"
+    },
+    {
+      "id": 21,
+      "name": "Woodcut/Linocut Comic",
+      "file": "art/021.webp",
+      "master": "art_src/generated/021.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Woodcut/Linocut Comic. Bold hand-carved relief-print scene: Nori shields the sprout and luminous seed against a gale. Huge black shapes and sharply gouged ivory strokes, coarse carved wood grain, decisive high-contrast silhouette, chiseled diagonal rhythm. Monochrome black ink on fibrous warm paper. No smooth gray shading, fine pencil, flat vector uniformity or false texture overlay.",
+      "generationFile": "exec-c2355be7-30c9-44cd-94b5-a2daa6b21e7d.png",
+      "sha256": "4e5bb7e6b289d3a57e8b9ae15d0fa017d33b72787e9c0a287328bc501d24a3c9",
+      "masterSha256": "f002f7d21ea5632f9d075c3374a9b70a3d09fe094443ff7b95e9c351a7570d28"
+    },
+    {
+      "id": 22,
+      "name": "Steampunk Adventure Comic",
+      "file": "art/022.webp",
+      "master": "art_src/generated/022.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Steampunk Adventure Comic. Nori on a suspended brass greenhouse airship, wearing recognizable orange jacket and teal scarf with practical goggles, carefully turning a mechanical iris to release the luminous seed; sprout in a strapped pot. Intricate functioning gears, copper pipes, rivets, polished brass, steam and ornate Victorian machinery. Adventurous depth and warm sepia/teal inked atmosphere.",
+      "generationFile": "exec-93ecc3a2-2887-4988-9aed-2be4a1f7f293.png",
+      "sha256": "182afe2d5c70b048b61085fa3a8db454a35f4ebb472b1f7e32b9898857742563",
+      "masterSha256": "87ace007946f1381f11cc5d7ad24c6e322d6dae7b16bb0e78e20ea97895a8f47"
+    },
+    {
+      "id": 23,
+      "name": "Newspaper Editorial Cartoon",
+      "file": "art/023.webp",
+      "master": "art_src/generated/023.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Newspaper Editorial Cartoon. One clear humorous visual metaphor: Nori carries a small watering can toward one tiny seed while an absurdly enormous ornate bureaucratic machine demands stacks of blank paperwork; sprout rolls its eyes. Exaggerated shapes and expressions, economical confident newspaper pen lines, limited ink wash and warm paper. Clear single-image social observation without text, real politicians or party symbols.",
+      "generationFile": "exec-4476acd0-deb7-40cd-b0a7-e96957bc92ae.png",
+      "sha256": "3df8461fc2dc697e885763a14a3d025f252c04658aa9caf34b5e9e1e0a3cbc05",
+      "masterSha256": "72bdc7712bf3402cc19eb61af8b6638ff328db362e5d0784ffe51aa79917068c"
+    },
+    {
+      "id": 24,
+      "name": "Children’s Picture-Book Comic",
+      "file": "art/024.webp",
+      "master": "art_src/generated/024.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Children’s Picture-Book Comic. Gentle gouache-and-colored-pencil picture-book scene: Nori carefully tucks a luminous seed into a little soil bed as the sprout companion watches with affectionate curiosity; cozy garden, simple leaves and friendly insects. Soft rounded forms, warm accessible acting, matte brush texture, inviting storybook palette, clear uncluttered composition, kindness and wonder.",
+      "generationFile": "exec-452aadf0-82e6-4523-8a8a-c6e9fcfe0793.png",
+      "sha256": "68433e4f4db5034b2a7808092a82733870737e1758458ff2566903a719e3b820",
+      "masterSha256": "26b9d2721029a14ed4055d7430110ade6dfc119df3d9b1c4b4a9be137a9ea3e5"
+    },
+    {
+      "id": 25,
+      "name": "Risograph Indie Zine Comic",
+      "file": "art/025.webp",
+      "master": "art_src/generated/025.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Risograph Indie Zine Comic. Original two-panel micro-story of Nori passing a luminous seed from hand to pot, intimate handmade framing. Genuine-looking two-ink risograph printing: coral red and teal layers, visible halftone grain, slightly offset registration edges, overprinted darker overlaps and rough uncoated paper. Restrict to two spot inks plus paper. No glossy gradients or full-color digital render.",
+      "generationFile": "exec-5516c8a9-3dea-47d5-983f-ecfd804e6a43.png",
+      "sha256": "2837555eeb99364d107d44728d73a99dd188944b31ac5f2fe49cb66f377d4df7",
+      "masterSha256": "31269d3799a6954d797c9a4b5a6a5c80fbc817e204ddba56e848095b2a55a115"
+    },
+    {
+      "id": 26,
+      "name": "Retro Newspaper Adventure Strip",
+      "file": "art/026.webp",
+      "master": "art_src/generated/026.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks or UI. Use only text explicitly requested below; otherwise no text. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Retro Newspaper Adventure Strip. ONE HORIZONTAL STRIP: exactly THREE SIDE-BY-SIDE panels LEFT TO RIGHT with two VERTICAL separators, each occupies a third of the landscape canvas; NOT three horizontal bands stacked above one another. LEFT Nori spots glowing seed over a broken bridge; CENTER swings across on vine with sprout safely in satchel; RIGHT catches seed while clinging to cliff. Vintage brush inks, crisp adventure staging, faded spot colors, coarse newsprint halftone and warm paper. Each panel a distinct readable action at 480x326. No text.",
+      "generationFile": "exec-f11f6939-fda8-4d9d-834c-4e6b4b799b0d.png",
+      "sha256": "d6bd049fbe43268665623e114fdb2b5e5814adb96e8f2c93b23f299beadf1172",
+      "masterSha256": "20e503dca0260c1db6f1f85cf848dc0a5c953917a37621c97c41937e0a18b120"
+    },
+    {
+      "id": 27,
+      "name": "Mixed-Media Scrapbook Comic",
+      "file": "art/027.webp",
+      "master": "art_src/generated/027.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Mixed-Media Scrapbook Comic. Nori's personal memory of finding the seed told as an authored collage: torn photo-like character fragment, translucent tracing-paper hands, hand-painted seed, pressed leaves, layered ticket-shaped blank ephemera, visible tape and stitched trail. Tangible uneven paper edges and overlapping scales, warm intimate composition. No legible text, generic flat rectangles or copied photos.",
+      "generationFile": "exec-d984e25c-24ac-4233-8fec-fa59617a9bf8.png",
+      "sha256": "590bdf54c87b8b299a8c68698ca03c7a94a3a14171ca628ec3f637d7aef098e3",
+      "masterSha256": "a08f5913808239b903aa5c0f3551f69cdc600376372e79c70d8897d39b1cf1a5"
+    },
+    {
+      "id": 28,
+      "name": "Claymation/Stop-Motion Comic",
+      "file": "art/028.webp",
+      "master": "art_src/generated/028.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Claymation/Stop-Motion Comic. Practical miniature set photographed close: Nori clearly sculpted from colored clay with thumbprints, seam lines and slightly irregular orange jacket/teal scarf, kneeling by sprout pot to retrieve a glowing clay seed. Felt moss, cardboard stones, tactile terracotta, shallow depth of field and warm tabletop lighting. Obviously handmade clay figures, not smooth CGI or painted cartoon.",
+      "generationFile": "exec-0aba4ae7-f113-44d3-b907-f78178b40d12.png",
+      "sha256": "a8d50aec75730b474ebc557155a0b6db6fb94706b847166b085fbe443f64d758",
+      "masterSha256": "62f243a999db12585edc2c25871b4b53433bb37af9a531b5485b9a692cf6fd71"
+    },
+    {
+      "id": 29,
+      "name": "Psychedelic Pop-Art Comic",
+      "file": "art/029.webp",
+      "master": "art_src/generated/029.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Psychedelic Pop-Art Comic. Nori catches a seed within an exuberant original world of bending flower eyes, warped perspective and op-art spirals that actively frame the action. Acid magenta/cyan/lime/orange, bold flat silkscreen-like color separations, comic halftones, elastic black contour and rhythmic repetition. Pot companion startled. Strong readable central silhouette; no generic purple rings, text or drug references.",
+      "generationFile": "exec-fc7a97a7-8214-4b60-9ed2-754ef915c76e.png",
+      "sha256": "567416480066f785110e3cdbb9a04b8a50ce13055c3ffee1184949699bab31c4",
+      "masterSha256": "e12a288250946c33140a76bb3285b238acbd4744bf4e7ee4e12c27c878ab1500"
+    },
+    {
+      "id": 30,
+      "name": "Mythic Epic Comic",
+      "file": "art/030.webp",
+      "master": "art_src/generated/030.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Mythic Epic Comic. Sweeping epic painted-comic vista: tiny orange-jacket Nori and sprout at the edge of an ancient colossal stone gateway, holding a luminous seed that lights a path through mountains and immense weathered statues. Heroic scale, grand atmospheric depth, powerful dramatic sky, carved age and consequence. Sophisticated painterly line-and-color with warm gold against blue shadows.",
+      "generationFile": "exec-f638dcac-5b39-4d79-a8f2-8f9cce87271c.png",
+      "sha256": "b4af2952d967bde68e0cced117e46a9654410462e3a49aba7e34f89e65253087",
+      "masterSha256": "4d4708c322c9772ce3a2f1a2613132b681895dbe3e737b3eea082df67e5296cf"
+    },
+    {
+      "id": 31,
+      "name": "Slice-of-Life Diary Comic",
+      "file": "art/031.webp",
+      "master": "art_src/generated/031.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Slice-of-Life Diary Comic. Three quiet observational panels in a modest kitchen: Nori finds the seed in a coat pocket, makes room for the little pot on a cluttered windowsill, shares a tired contented smile with sprout over tea. Subtle natural acting, casual hand-drawn ink, everyday objects, intimate close framing, small pauses, soft muted spot color on paper. No spectacle or generic heroic pose.",
+      "generationFile": "exec-aadc44c4-0791-4695-8e92-287d5a70c4f0.png",
+      "sha256": "984644fb96d610b8a35a749383e288a0aee09e852aa924f9cf9ba765308656ac",
+      "masterSha256": "9f4752159215f46cb7d2b592c8c864250ebbc554c08d76bbf7a04153047fe505"
+    },
+    {
+      "id": 32,
+      "name": "Sci-Fi Hardline Technical Comic",
+      "file": "art/032.webp",
+      "master": "art_src/generated/032.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Sci-Fi Hardline Technical Comic. Nori repairs a believable seed-containment device on a workbench aboard an exploration ship; pot companion on console. A large narrative view paired with a precise exploded inset of hinges, contacts, seals and seed chamber. Ruler-clean technical inks, convincing functional hardware, crisp perspective, restrained steel/teal/orange. Distinguish engineering storytelling from decorative blue grid. No illegible labels.",
+      "generationFile": "exec-8bc2a513-9bad-403b-92c5-b3dbea7aff3d.png",
+      "sha256": "1af121e02ab75443526315a04d1fab5806317e06bb9d401e28d5c90fffe9b4d2",
+      "masterSha256": "65fb45b2a74c5aed47be5b3d651884e14efefca42b7b3f10d6d7b6c1a26b921b"
+    },
+    {
+      "id": 33,
+      "name": "Gekiga Comic",
+      "file": "art/033.webp",
+      "master": "art_src/generated/033.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Gekiga Comic. Mature restrained black-and-white dramatic scene of clearly adult Nori on a late-night station platform, gripping the seed envelope with tense hands while sprout waits in a worn bag. Grounded realistic proportions, tired expressive eyes, weighty brush blacks, detailed industrial setting, purposeful crosshatching and cinematic silence. Serious adult dramatic tension; no oversized cute eyes, speed-line spectacle or color.",
+      "generationFile": "exec-57b8b5c2-3a25-40b9-abd7-8c051ed2d29a.png",
+      "sha256": "6080c4bbb610ccc0dc27e0f5decb5c4958b5199bb63a0d8c5449bf16b2ed219a",
+      "masterSha256": "fd6027d4dbb0cdb39331e80a5c481e150d9b543ad9655ab9899190eac64d8c8b"
+    },
+    {
+      "id": 34,
+      "name": "Josei Romance Manga",
+      "file": "art/034.webp",
+      "master": "art_src/generated/034.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Josei Romance Manga. Two-panel intimate everyday romance between clearly adult Nori and another original adult traveler at a rainy cafe window; one offers the glowing seed in an open hand, the other hesitates then smiles. Graceful natural figure drawing, nuanced eyes and gestures, delicate black-and-white pen lines, fine screentones, elegant negative space and personal emotional pacing. Sprout quietly on tabletop. No generic chibi aesthetic.",
+      "generationFile": "exec-b48ce61a-d4c8-46bf-b459-deceea168c33.png",
+      "sha256": "79e3d72c2d47be992a3c3e6bf234954485f4fbb8c402fbec0036e1008290d027",
+      "masterSha256": "250fbd2f6f6c280b7035b2f9ab1ae3adbd29a7bd70c455b2c9fbe981b6323f25"
+    },
+    {
+      "id": 35,
+      "name": "Kodomo Manga",
+      "file": "art/035.webp",
+      "master": "art_src/generated/035.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Kodomo Manga. Cheerful all-ages manga micro-adventure: Nori and sprout build a simple leaf bridge to rescue a bouncing seed. Three very readable action beats, big clear expressions, rounded friendly forms, bold economical ink, bright spot colors, playful visual problem solving, uncomplicated backgrounds. Original invented characters, gentle stakes, no borrowed mascots.",
+      "generationFile": "exec-daac4210-005f-438c-86a2-ad7052adea9b.png",
+      "sha256": "58804f5bda2c24e363a5eb00bad9528fb73954f71bdf26c4b30280e40dcd7e40",
+      "masterSha256": "26fd4bad48c187bcb656c6eb3a9e29adc4789023c9e479192f8bceccf2a4f2f9"
+    },
+    {
+      "id": 36,
+      "name": "Korean Romance Manhwa",
+      "file": "art/036.webp",
+      "master": "art_src/generated/036.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Korean Romance Manhwa. Polished full-color romantic comic excerpt with two stacked close-up panels: clearly adult Nori and a second clearly adult traveler shelter from rain, exchanging the luminous seed; hands nearly touch, then a meaningful mutual gaze. Elegant elongated adult proportions, refined digital linework, luminous skin rendering, glossy dark hair, restrained soft-focus background, contemporary romance mood. Sprout on window ledge.",
+      "generationFile": "exec-a7fa2962-6bcf-4572-91f9-08e57217101a.png",
+      "sha256": "0b7703516e7d993d8b84f92f19bed0beb534a8ae1d6bc43b0e8a89c77c975a3f",
+      "masterSha256": "8fda6f6df6c97c1620dd3657345ef3dca0e4642566d4ee4d889fac6d6697470b"
+    },
+    {
+      "id": 37,
+      "name": "Wuxia Comic",
+      "file": "art/037.webp",
+      "master": "art_src/generated/037.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Wuxia Comic. Nori reinterpreted as an original wandering martial-arts traveler retaining orange outer robe/jacket and teal sash/scarf, leaping through bamboo to catch a seed while guiding sprout safely in a satchel. Sweeping cloth arcs, brush-ink motion, fluid strong pose, misty historical mountain pavilion, expressive Chinese-comic linework and limited earthy colors. No copied franchise design or fake calligraphy.",
+      "generationFile": "exec-042b30d1-01c8-4a28-a9f4-9275a6a896d4.png",
+      "sha256": "3990f2d656f807f60e14ce5e39ba8a85d9e6c69b0cf17b4db02db6298122aaa9",
+      "masterSha256": "9df847b15127dbaa657fd3b0ea1a3d56a250e933b768b37e92c08e91ae8a7bd5"
+    },
+    {
+      "id": 38,
+      "name": "Ligne Claire Detective Comic",
+      "file": "art/038.webp",
+      "master": "art_src/generated/038.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Ligne Claire Detective Comic. Original clear-line detective scene in daylight: Nori studies the trail of small muddy footprints leading from a dropped glowing seed envelope to a greenhouse door; the sprout companion on a nearby low wall. Medium-wide view with impeccably readable spatial clues, carefully drawn architecture, paving stones and everyday objects. Fine consistent black contours of even thickness, clean flat cel colors, almost no hatching, no painterly shadows. Every clue immediately legible, calm organized perspective, natural expressive acting. Not watercolor, not thick superhero ink, not generic flat geometric clipart. No speech balloons or written clues.",
+      "generationFile": "exec-bcccdedf-9e77-41cc-ae06-ba978a31aaed.png",
+      "sha256": "cdbd6a75bd47ef4efdc9f83dcc8bd99a6c4934d3505c2ac7ec71fc1cf8c063a6",
+      "masterSha256": "da85e6e4cbc843b8b273bc365b3a936f56b26a537f7c998cbadd04a759b9f267"
+    },
+    {
+      "id": 39,
+      "name": "Folk-Art Comic",
+      "file": "art/039.webp",
+      "master": "art_src/generated/039.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Folk-Art Comic. Nori and sprout finding a seed inside a decorative village garden, drawn as charming flat folk-painted figures. Earthy ochre, brick red, forest green; stylized plants and birds, balanced repeating motifs, flattened perspective and handmade brush irregularity. Narrative symbols integrated with a warm patterned frame. No generic digitally shaded cartoon, invented ethnic claims or real sacred emblems.",
+      "generationFile": "exec-029c6ede-3bd3-47d2-886d-fdfdb2597cf8.png",
+      "sha256": "8e8df7a6c9f708438d03ee996842875283658405498c2f6052dee6bcb0da24e9",
+      "masterSha256": "f5b5d002b849af9bedb534b28ca96a0dbe18491006813ca0eb723740aa984d39"
+    },
+    {
+      "id": 40,
+      "name": "Art Nouveau Fantasy Comic",
+      "file": "art/040.webp",
+      "master": "art_src/generated/040.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Art Nouveau Fantasy Comic. Original decorative illustration of Nori cupping the seed while tall iris stems and sinuous vines curve around figure and sprout. Flowing organic contour, elegant elongated pose, harmonious integrated botanical border, flat jewel/earth colors, fine graceful linework, carefully organized negative space. The vines structure the composition; no generic circular halo, copied famous poster or text.",
+      "generationFile": "exec-7ae44fea-73a0-486d-b03e-56bdb9ca5ea6.png",
+      "sha256": "9afdc1bbfcc5ad3e86f6d7a5a93d8356540028b7a789422b7187c97f3892b5e4",
+      "masterSha256": "19d30c0c03a75fde3deab3f1f6547a16b4e9a792ed3bcc94020cc1b0040dbb3c"
+    },
+    {
+      "id": 41,
+      "name": "Graffiti/Street Comic",
+      "file": "art/041.webp",
+      "master": "art_src/generated/041.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Graffiti/Street Comic. Nori and sprout discover a luminous seed emerging through a cracked city wall painted as a large original mural. Energetic aerosol edges, crisp stencil layers, drips, expressive angular comic outlines and bold spray-painted color fields; visible brick and concrete. Distinct street-art material and scale, strong urban action. Abstract nonverbal lettering-like shapes only, no tags, gang signs or brands.",
+      "generationFile": "exec-c3957094-0111-4d54-8476-7c6c4fa2f37f.png",
+      "sha256": "2d4143d977e5ebb73c55ed9ea5418e7d83bcf5bc3ca8ac6a535cb4dbab64442e",
+      "masterSha256": "42e56b9e663c3c3c9f69ed2276896bdc615370280d2ac664701469db10f24f7f"
+    },
+    {
+      "id": 42,
+      "name": "Cut-Paper Collage Comic",
+      "file": "art/042.webp",
+      "master": "art_src/generated/042.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Cut-Paper Collage Comic. Nori reaches across a forest stream for the seed; sprout on a rock. Entire scene assembled from visibly cut colored paper: layered leaf silhouettes, uneven scissor-cut edges, overlapping jacket/scarf shapes, shallow real cast shadows and fibrous paper surfaces. Clear depth through physical layering, limited warm orange/teal/cream palette. Not digitally drawn smooth outlines or painted gradient shading.",
+      "generationFile": "exec-3a2d77fa-7c4b-4a2c-be93-71ca8bc018b7.png",
+      "sha256": "2df6016d03ad59a7a735efee90e7b5123fe241d6de81235ba71ff02fb3c5d3fa",
+      "masterSha256": "cc9922d7c2211efb1f4d03d6bbdeb400a38cf281984948901931dbdd32515454"
+    },
+    {
+      "id": 43,
+      "name": "Blueprint/Technical Story Comic",
+      "file": "art/043.webp",
+      "master": "art_src/generated/043.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Blueprint/Technical Story Comic. Cyan blueprint comic with two narrative stages and an exploded diagram: Nori opens a small seed-lifting bridge mechanism, then crosses with sprout. Thin precise white drafting lines on deep blue, functional gears/hinges, orthographic inset, construction circles and dimensional guide arrows. Narrative action legible and mechanical operation coherent. No decorative pseudo-text, fake equations or generic robot silhouette.",
+      "generationFile": "exec-5fa76a36-3a2e-4184-95fd-b68e751f5ff6.png",
+      "sha256": "44607116b19788ce242cf81ccf1a0a09fdfbecfe87497946a553ff6162bccc68",
+      "masterSha256": "8a802bf3d96e3cbacd6673ec387493c2259efe955576da208c536c645183bb9f"
+    },
+    {
+      "id": 44,
+      "name": "Gothic Horror Manga",
+      "file": "art/044.webp",
+      "master": "art_src/generated/044.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Gothic Horror Manga. Original black-and-white suspense manga page fragment: Nori in a decaying greenhouse notices the sprout's shadow stretching into an enormous uncanny shape behind them as the seed flickers. Tight terrified eye inset, long oppressive architectural perspective, intricate ink hatching, deep black voids, pale negative space, unsettling organic detail. Psychological dread, no gore, no copied monsters or colored cartoon.",
+      "generationFile": "exec-822d785c-d03f-4dc6-995c-1811a6c6fa3c.png",
+      "sha256": "992f6dffbb59cd4bd8310fa5f25c2992bdd0ed51d26f3240c0768f02ec1b5f6b",
+      "masterSha256": "ac39048e1a9440f2f4444bd286d73634c2b03a588352d3c1d1cd91850b9f4040"
+    },
+    {
+      "id": 45,
+      "name": "Minimal Geometric Comic",
+      "file": "art/045.webp",
+      "master": "art_src/generated/045.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks or UI. Use only text explicitly requested below; otherwise no text. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Minimal Geometric Comic. Extreme reduction: ONLY circles, semicircles, rectangles, trapezoids and straight diagonals, uniformly flat fills, no outlines or gradients. Nori indicated by one navy semicircle of hair, one warm-tan circular head, orange trapezoid coat, two small navy rectangular legs and a teal scarf diagonal. Companion a small terracotta trapezoid with two oval leaves. Three sparse scenes use these same simple geometry pieces to pass a small ivory seed across a navy bridge. Cream field, enormous negative space, exact clean geometry, sophisticated balanced asymmetry. No eyes more complex than two dots, no naturalistic landscape, shading, illustration texture or conventional cartoon anatomy.",
+      "generationFile": "exec-77179ff7-618d-4e66-a5ca-c479da396057.png",
+      "sha256": "8e4f3b992f9e7c49987e6a37584f1f490fd35cb44474b05f06025b8845b3f370",
+      "masterSha256": "0eea8a402731cb71e56fc5cc5bb1bdba2cfca7759b44daf07c6a4ee5eb273ac0"
+    },
+    {
+      "id": 46,
+      "name": "Fantasy Map Comic",
+      "file": "art/046.webp",
+      "master": "art_src/generated/046.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Fantasy Map Comic. A beautifully readable illustrated adventure map tells Nori and sprout's route from village through forest, over a bridge, to a glowing seed grove. Nori appears as a small recognizable orange/teal traveler along a dotted route; mountains, rivers, landmarks and compass geometry drawn with charming cartographic ink. Warm parchment, rich tiny environmental vignettes, clear geography. No unreadable labels or copied maps.",
+      "generationFile": "exec-257ca137-48c2-4f9c-a1a7-f95ee332aaa1.png",
+      "sha256": "cb8598c3768c374aa57cbf1f37f6d82bc16ad9f2cd443426fb272f99007c6dcd",
+      "masterSha256": "16491c51264a8b27a698a9f15b95fcba89065332477e0ec68841eccf40794a5c"
+    },
+    {
+      "id": 47,
+      "name": "Stained-Glass Comic",
+      "file": "art/047.webp",
+      "master": "art_src/generated/047.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Stained-Glass Comic. Nori holding the seed and sprout beside an arched forest window, represented entirely by richly colored translucent glass pieces separated by convincing dark lead cames. Jewel blue, amber, emerald, ruby; purposeful segmented shapes, transmitted light, subtle glass ripples and luminous edge highlights. A coherent figurative stained-glass composition, not a cartoon with a grid over it. No religious icon copying.",
+      "generationFile": "exec-b6d196db-224c-48e5-aa11-f1886b9ace16.png",
+      "sha256": "ba00dfbc04836fb53d4ccb8305c9a6885465828310e29534ece0b1ce71ad1fc2",
+      "masterSha256": "fc0f55ca4e20b6dcd8c1dc3dea19ed7f3188b9c2752150ced1d4191b31983524"
+    },
+    {
+      "id": 48,
+      "name": "Low-Poly 3D Comic",
+      "file": "art/048.webp",
+      "master": "art_src/generated/048.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Low-Poly 3D Comic. Truly faceted 3D scene: Nori crouches on angular rock platforms toward a geometric luminous seed, sprout pot nearby. Visible polygon planes in hair, face, cloth and terrain; intentionally low polygon count, flat shaded triangles, coherent isometric-ish camera, crisp ambient/contact shadows and restrained orange/teal palette. No smooth clay, painted texture or generic flat vector triangles.",
+      "generationFile": "exec-c42b37d1-6187-45b6-8b6a-2a5f3e224218.png",
+      "sha256": "9a35cdba93bc0aaac8cd0d4fa3ff61b2972026e0c391a825d46e7f58ea10f654",
+      "masterSha256": "de0a84fcffa46eeee62664a84f4b9307d70f6998bdebd8cdde03cb1eb9793cd1"
+    },
+    {
+      "id": 49,
+      "name": "Silver Age Superhero Comic",
+      "file": "art/049.webp",
+      "master": "art_src/generated/049.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Silver Age Superhero Comic. Nori as an ORIGINAL optimistic costumed adventurer with orange jacket/cape-like coat and teal scarf, saving the sprout pot while reaching for a seed over a retro city. Strong clean brush inks, bright flat four-color printing, big heroic pose, energetic radial action burst, visible Ben-Day halftones and simple classic panel framing. No existing superhero costumes, chest emblems, logos or text.",
+      "generationFile": "exec-b3045b5e-e1ac-46e7-b2bf-f65b330c72ce.png",
+      "sha256": "bd8baf9722a55e35f00b0ba7ee7843a9d617a1b7671ddc5605df432669fd6512",
+      "masterSha256": "90036757edb78fca87defb905fc2a94ce836b6b7648f0e69a30694cd58fbd27d"
+    },
+    {
+      "id": 50,
+      "name": "Funny Animal Sunday Comic",
+      "file": "art/050.webp",
+      "master": "art_src/generated/050.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Funny Animal Sunday Comic. An ORIGINAL anthropomorphic little fox reinterpretation of Nori with dark forelock, orange explorer jacket and teal scarf. A three-panel Sunday-funnies visual gag: fox carefully plants seed; tiny sprout sneezes; a shower of leaves covers the fox's delighted face. Warm expressive animal acting, rounded squash/stretch, clean vintage cartoon inks, cheerful flat colors and readable timing. No familiar franchise animals.",
+      "generationFile": "exec-31f7d6a7-4b47-4d25-8b97-4718996fc5e0.png",
+      "sha256": "280845adcb1c89ac4dfb6ec2090187a5f313768ea066b2c95ea31df5ccb4a8c0",
+      "masterSha256": "dcae875d9ab779548a9408536d8e53bcde30613e511de4f080d7c4e633472257"
+    },
+    {
+      "id": 51,
+      "name": "Autobiographical Memoir Comic",
+      "file": "art/051.webp",
+      "master": "art_src/generated/051.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Autobiographical Memoir Comic. Clearly adult Nori quietly repots the sprout at an old family kitchen table, with two smaller memory panels showing a seed held in a caregiver's hand and the empty childhood windowsill. Reflective honest expression, intimate ordinary objects, layered past/present composition, personal pen marks and restrained watercolor/gray wash. Tender visual memory without captions or fabricated real biography.",
+      "generationFile": "exec-9e2f68f6-613c-4a91-82be-73400a2e7732.png",
+      "sha256": "d32c8d243529d4756fae338248ff82836970b5d4b64684dc38a1cda05d407e27",
+      "masterSha256": "b5edaf87111ddeaa87cea098626f38a241ace7a0292cc463e31408429e08e652"
+    },
+    {
+      "id": 52,
+      "name": "Political Satire Comic",
+      "file": "art/052.webp",
+      "master": "art_src/generated/052.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Political Satire Comic. Nonpartisan fictional environmental satire in a single editorial image: a huge puffed-up suited mechanical official awards a blank medal to a barren plastic tree while small Nori quietly plants a real luminous seed and sprout in cracked ground. Pointed visual irony, expressive caricature, confident loose pen, limited spot red and gray wash. No real politicians, parties, text or loaded insignia.",
+      "generationFile": "exec-1f97f212-ec79-4b23-a7f7-94f5e7dcf6ba.png",
+      "sha256": "c4193eeae9c5602376488879c95f5e39f539872b69c26197fd4bd2928582e44a",
+      "masterSha256": "2a47d75c85bd505d254d713a12d7bf6dfd31ceaed35ac6fcad0fa2c18d8e6179"
+    },
+    {
+      "id": 53,
+      "name": "Sword-and-Sorcery Comic",
+      "file": "art/053.webp",
+      "master": "art_src/generated/053.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Sword-and-Sorcery Comic. Original rugged fantasy adventure: adult Nori with practical travel cloak over orange tunic and teal scarf uses a plain unbranded short sword to cut a thorn vine enclosing the glowing seed, sprout protected behind. Strong anatomy, dense dramatic inks, weathered ruins, muscular diagonal composition and earthy painted color. Mythic danger without gore, borrowed armor or recognizable franchise designs.",
+      "generationFile": "exec-4f75245f-2343-4ac2-97e5-464d104b6285.png",
+      "sha256": "89045023e412ca4583a3d689d7f0bc4fac29a27bafb33b62d022f55cf1b45489",
+      "masterSha256": "be33140305d606a8aec42b977d398333771eac9a5b2030e95cbf2c6cd5719037"
+    },
+    {
+      "id": 54,
+      "name": "Retro Sci-Fi Pulp Comic",
+      "file": "art/054.webp",
+      "master": "art_src/generated/054.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Retro Sci-Fi Pulp Comic. Original vintage pulp-cover-style scene: orange-suited Nori in a round clear space helmet steps onto a strange alien plateau holding a seed specimen, sprout in a small glass habitat. Wonderfully improbable original rocket, enormous ringed planet, dramatic painted rimlight, saturated cyan/crimson/ochre, airbrushed retro atmosphere and aged-print grain. No text or copied cover composition.",
+      "generationFile": "exec-16f2dba6-82c8-4470-bae2-c6d0e44cc5ea.png",
+      "sha256": "bd9bb9df4482077227473bf0a31f39be0acd23f52a4da0bd877420c539f1c1ec",
+      "masterSha256": "38caebf115c4032d04355294d949c4e75762866490995d0ea08ff7d26b808baf"
+    },
+    {
+      "id": 55,
+      "name": "Magical Girl Manga",
+      "file": "art/055.webp",
+      "master": "art_src/generated/055.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Magical Girl Manga. Nori as an ORIGINAL magical explorer retaining bob, orange costume and teal ribbon-scarf, guiding a luminous seed through a sweeping transformation arc. Elegant dynamic pose, expressive eyes, flowing fabric, magical botanical motifs, crisp delicate manga lines, sparkling screentones and luminous pastel accents. Sprout companion floats nearby. No existing magical-girl costume, weapon, brooch or copied symbols.",
+      "generationFile": "exec-a8c9ec2a-7685-4b17-b857-d53fe44062f8.png",
+      "sha256": "a909498037e8b623924bea194faa06253fb9a4b4dad29bde4c742179049f7630",
+      "masterSha256": "378815d50e3800767b517eada44f0aa4b4b02c9fe35ac6ac462c465417728e0c"
+    },
+    {
+      "id": 56,
+      "name": "Sports Manga",
+      "file": "art/056.webp",
+      "master": "art_src/generated/056.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Sports Manga. Black-and-white high-energy comic of Nori sprinting and diving across a marked training court to catch a falling seed as sprout cheers from sideline. Accurate athletic weight and foreshortening, intense determined eye inset, impact moment, thick-to-fine pen strokes, speed lines, screentones and gritty action texture. Competitive effort and movement, not a standing pose. No words.",
+      "generationFile": "exec-7434da08-c9bb-49cc-88e6-a1895ba5b914.png",
+      "sha256": "64dc048d6a63c8c429549a3bfd6064111fa3b83334de1e709674dab20668963f",
+      "masterSha256": "d1f3ff2839d8cc3d84b8e8d4d056961330c8a55cbd38311e86d98a900314a271"
+    },
+    {
+      "id": 57,
+      "name": "Post-Apocalyptic Comic",
+      "file": "art/057.webp",
+      "master": "art_src/generated/057.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Post-Apocalyptic Comic. Nori and sprout carefully protect the luminous seed while crossing the remains of a flooded city toward a tiny patch of green. Weathered orange jacket, torn teal scarf, rusty infrastructure, cracked concrete and believable survival objects. Vast desolation versus small hopeful life, cinematic ink-and-painted desaturated gray/ochre/green. No gore or famous apocalypse imagery.",
+      "generationFile": "exec-d3e43482-3cd0-4aec-ab5d-210b0c4059ce.png",
+      "sha256": "7575c9e73afb2fe8b5b3df40b46a89abd1ed46205d4d62ab7d3b5122aab846d1",
+      "masterSha256": "c6b83a5a0333eefeb3c5e13416abdd13b6ec02d10a53e0df9e2cb8e490bcb32b"
+    },
+    {
+      "id": 58,
+      "name": "Silhouette Fairy-Tale Comic",
+      "file": "art/058.webp",
+      "master": "art_src/generated/058.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Silhouette Fairy-Tale Comic. A beautiful wordless fairy-tale scene cut from solid black silhouettes: Nori's bob, scarf and coat profile clearly recognizable as they carry sprout across an arched root bridge toward a glowing seed. Layered forest silhouettes, delicate branching negative spaces, pale moonlit paper background and one warm amber light. Story told by gesture and clear silhouette alone; no facial details or shaded rendering.",
+      "generationFile": "exec-69151642-c64c-41b4-b5e6-4b2a61cd1acf.png",
+      "sha256": "7bcea71083709aeff81b25f483e71fef492e6b8c8fc80f5a12310d7f8856417d",
+      "masterSha256": "e7de1c2b923d807896b349d18f213567cb8f77b19e79917075c5f52105442b7e"
+    },
+    {
+      "id": 59,
+      "name": "Charcoal Expressionist Comic",
+      "file": "art/059.webp",
+      "master": "art_src/generated/059.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Charcoal Expressionist Comic. Nori crouched protectively over the seed and sprout in a harsh wind, intensely emotional posture. Rich genuine-looking charcoal black masses, smudged broad strokes, broken dusty edges, finger-rubbed grays, erased white highlights and rough paper tooth. Distorted expressive space and forceful mark direction. Strict black/gray/white; no clean vector contours or decorative noise.",
+      "generationFile": "exec-761407bf-8de0-42c4-b454-97e2e603ee2c.png",
+      "sha256": "f8598ae063ebdbe37045548a78b191e9985c087528d0d59ce5bf4b5ad1e33fc5",
+      "masterSha256": "6f831a209e5ff6c531586493c8bfaf825b79586554dca5a4600fb3238bfe1fce"
+    },
+    {
+      "id": 60,
+      "name": "Educational Science Comic",
+      "file": "art/060.webp",
+      "master": "art_src/generated/060.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Educational Science Comic. Three clear illustrated steps of Nori observing a seed germinate beside sprout companion: seed absorbs water, root grows downward in transparent soil, shoot reaches light. Enlarged cutaway inset and meaningful simple arrows; friendly accurate broad process, readable scientific drawing, clean blue/orange/green color organization. No fake equations, unsupported detailed claims, charts or illegible text.",
+      "generationFile": "exec-f534e992-0143-4775-8344-8e13e38ee483.png",
+      "sha256": "8b803b20cedc93a20fbbf77e4958a9c0e1fadca4c48cde19f775a8e2a54516c1",
+      "masterSha256": "ff44deb3a6b6139397b23eae8bb6dc2166343be5a17e14cebc6e008364d9c767"
+    },
+    {
+      "id": 61,
+      "name": "Solarpunk Comic",
+      "file": "art/061.webp",
+      "master": "art_src/generated/061.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Solarpunk Comic. Nori and sprout return the luminous seed to a thriving community rooftop garden. Lush biodiversity integrated with shaded walkways, solar canopies, rainwater collection, practical repair details and welcoming human-scale architecture. Optimistic environmental storytelling, warm sunlit colors, detailed clean comic lines, believable everyday use. Avoid generic futuristic skyline or greenwashing logos.",
+      "generationFile": "exec-a2258c6b-5f98-4866-a963-232cdfa25d1c.png",
+      "sha256": "30d1822361b215f2bb3769ec78c0af65d24553def15ef91fda22d5adce40c3cf",
+      "masterSha256": "312a2e1e31216af6672b7661b5dbb7f28ff769237097f1fbfbe6c50c1a941e39"
+    },
+    {
+      "id": 62,
+      "name": "Kaiju Monster Comic",
+      "file": "art/062.webp",
+      "master": "art_src/generated/062.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Kaiju Monster Comic. A colossal ORIGINAL moss-and-root botanical creature rises beyond a tiny coastal town, gently bending toward Nori offering the glowing seed. Tiny pot companion emphasizes scale in foreground. Monumental creature silhouette, perspective through buildings, billowing dust/water, bold cinematic manga inks and selective orange/teal color. Creature must be a unique plant form, not any recognizable movie monster.",
+      "generationFile": "exec-bba19b6d-0311-413e-8526-b44c315396bf.png",
+      "sha256": "c3e135d3999213760e602f5a2f66d384fe43a7b8397a7b8da1187a4f1b9b0908",
+      "masterSha256": "1cb52162f07ec5d618f7a463b086ff8e0984f9841387e2f49f68a75d91fd6bd8"
+    },
+    {
+      "id": 63,
+      "name": "Notebook Doodle Comic",
+      "file": "art/063.webp",
+      "master": "art_src/generated/063.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Notebook Doodle Comic. A genuinely hand-doodled notebook page: Nori and sprout explore a small sequential trail around a seed, spontaneous ink pen sketches, arrows, crossed-out attempts, margin drawings and uneven little panels. Visible ruled paper, relaxed imperfect contours, playful intimate expressions, tiny orange/teal pencil accents. Shapes still readable at thumbnail. No polished rendering, painterly forest backdrop or legible personal notes.",
+      "generationFile": "exec-f1182056-dbeb-4047-b776-833762185406.png",
+      "sha256": "2843b874c75f4330e716336fdc8f1758e642067a8e739e1386f72952a8c2084f",
+      "masterSha256": "0890ab506b5994585ba6ad6c3bcc6702bfd4f350184a333ef1e5601733fb06e3"
+    },
+    {
+      "id": 64,
+      "name": "Isometric Adventure Comic",
+      "file": "art/064.webp",
+      "master": "art_src/generated/064.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Isometric Adventure Comic. A precise isometric cutaway adventure diorama: Nori and sprout move through a small greenhouse tower with visible stairs, bridges, waterwheel and seed chamber. Consistent parallel isometric axes, tiny readable figure, clear path and stacked explorable spaces, crisp illustrative edges and lively orange/teal/stone colors. Environmental puzzle storytelling, not a tilted flat cartoon scene.",
+      "generationFile": "exec-51ad7486-59d7-400d-8279-807fd3eb018c.png",
+      "sha256": "30d2a539dc9c43baa056d801ce7846c052b9f4670728f4fd3f4f769f16fdbdc1",
+      "masterSha256": "be2505e6ad707ff2b5d1581afb57369616d62fb26327632cd3d4a2855f39b746"
+    },
+    {
+      "id": 65,
+      "name": "Franco-Belgian Humor Comic",
+      "file": "art/065.webp",
+      "master": "art_src/generated/065.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Franco-Belgian Humor Comic. Three playful story panels: Nori tries an overcomplicated way to carry a seed across a small stream, the sprout simply tips a leaf into a bridge, Nori reacts with sheepish comic delight. Elastic expressive noses/brows and body acting, lively clear contour, detailed charming village setting, warm flat colors and readable visual humor. Original designs, no copied album characters.",
+      "generationFile": "exec-8cfe6533-b502-48ea-81f2-c17fde03f221.png",
+      "sha256": "fe7e13c89167db154e756f2715f48e5a19e71bebdaf1f57385bbdf6809a53753",
+      "masterSha256": "d6e7c0016c24ae3b2c626964c56d02459e1fa911bbc32f5b5bb3b17f78275ec3"
+    },
+    {
+      "id": 66,
+      "name": "Seinen Psychological Manga",
+      "file": "art/066.webp",
+      "master": "art_src/generated/066.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Seinen Psychological Manga. Clearly adult Nori in a narrow rain-soaked corridor holds the seed while their reflection repeats with subtly different anxious expressions in several glass panes. A tight eye inset and oppressive negative space build internal uncertainty. Grounded anatomy, detailed fine pen work, heavy black masses, precise screentone texture and restrained monochrome. Psychological tension, not gore or cute chibi.",
+      "generationFile": "exec-e15c3d43-e30d-481d-b175-fe1bf4fba785.png",
+      "sha256": "6c0fb93186cbd3138b9ede73919c7c6e88f94677a3154f04a62b453ce4b81cca",
+      "masterSha256": "7c6bcc2ac852f602c8389fd1ac086553517bf797c52a374697f93ba3d99c3f5d"
+    },
+    {
+      "id": 67,
+      "name": "Historical Manhua",
+      "file": "art/067.webp",
+      "master": "art_src/generated/067.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Historical Manhua. Original historical Chinese-comic interpretation of Nori as an orange-robed traveler with teal sash, carefully carrying the seed and sprout through a detailed old canal town. Elegant flowing figure contours, expressive sleeves, carved timber architecture, stone bridge, rich ink-and-subtle-color rendering and atmospheric depth. No fake writing, generic pagoda stereotype or copied historic artwork.",
+      "generationFile": "exec-7de1f7aa-3ec3-4d03-81fe-eb1df9281606.png",
+      "sha256": "5d0450f135d041b8e04eb4ab1a2de14541f14eefad89f0cfb79d794d35978fea",
+      "masterSha256": "672e904de9f837c8af445ac7a839b55c7150892fdf7fe6881423938d43c3723e"
+    },
+    {
+      "id": 68,
+      "name": "Family Newspaper Gag Strip",
+      "file": "art/068.webp",
+      "master": "art_src/generated/068.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks or UI. Use only text explicitly requested below; otherwise no text. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Family Newspaper Gag Strip. Exactly ONE ROW of THREE SIDE-BY-SIDE panels reading left to right, with two VERTICAL gutters. No stacking panels top-to-bottom. Left: Nori places sprout on sunny kitchen windowsill. Center: sprout turns toward desk lamp and away from sun, Nori puzzled. Right: Nori switches lamp off and sprout's leaves droop in exaggerated sulk. Same readable kitchen and camera, character acting, economical newspaper-cartoon lines, restrained flat colors and lots of white. No words or bubbles.",
+      "generationFile": "exec-77ad8448-6e78-4dbe-9558-6f81abda55cb.png",
+      "sha256": "1a8782b0546c6714a6b8e9182a25589c94e592a87fe4a3616876c22d9a694df9",
+      "masterSha256": "24d72ff2cc49f85b4bf895091735a9cb4de5feffd95bf2a1fbe86ff4d47854d1"
+    },
+    {
+      "id": 69,
+      "name": "Woodblock Fantasy Comic",
+      "file": "art/069.webp",
+      "master": "art_src/generated/069.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Woodblock Fantasy Comic. Original fantasy scene of Nori offering seed to a guardian tree as sprout watches, rendered like a multicolor carved woodblock print. Bold carved key lines, layered flat indigo/ochre/brick-red pigment, visible uneven wood grain, stylized clouds and rhythmic foliage, gentle registration irregularity. Strong narrative composition, no generic watercolor wash or copied print.",
+      "generationFile": "exec-d38f6112-0f2f-48ef-8d41-736cf7e4dc4e.png",
+      "sha256": "72484df068eabec5c6fcb665c60bbc10c2b00f74512a03cdf6391d8e7fdc42e3",
+      "masterSha256": "e02be525e7017cb81b9db6f6f390fc90e79773dcbe16108b6231b3aa91749041"
+    },
+    {
+      "id": 70,
+      "name": "1980s Airbrush Fantasy Comic",
+      "file": "art/070.webp",
+      "master": "art_src/generated/070.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. 1980s Airbrush Fantasy Comic. A spectacular original fantasy illustration: Nori and sprout on a crystalline ridge, seed suspended between hands beneath luminous alien moons and misty mountains. Highly controlled soft airbrushed light transitions, glossy highlights, saturated violet/cyan/amber, dramatic luminous atmosphere and illustrative realism. Strong figure silhouette; no generic vector halo or franchise imagery.",
+      "generationFile": "exec-0be21c0c-27a6-425a-95bf-e7f9e20808fa.png",
+      "sha256": "98708dfcc2474e8fbfcf4599d091e61a06695baae84cb030ec9997a8e57ffdea",
+      "masterSha256": "496b7d3195b27504633ed060321e43ad42e23f6979defa1892a867c6968ce6f0"
+    },
+    {
+      "id": 71,
+      "name": "Silent Wordless Comic",
+      "file": "art/071.webp",
+      "master": "art_src/generated/071.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Silent Wordless Comic. Exactly three clearly different sequential panels: seed blows away, Nori reaches and misses, sprout bends a leaf to catch it and Nori smiles in relief. Every beat understandable through gesture, eye-line and object positions alone. Confident elegant black-and-white ink, strong silhouettes, varied framing and purposeful visual transitions. Absolutely no letters, balloons or sound effects.",
+      "generationFile": "exec-732376ed-d18f-406c-8a6f-3edd8ed89220.png",
+      "sha256": "0ee698103f5d74295a815f5f613a70bc4ee3f9c201620d8258f4db495b2fa738",
+      "masterSha256": "ef5074a95517fcdda0fa8a818412cc4fb27988cde86c2d222c2eb5eebcda3237"
+    },
+    {
+      "id": 72,
+      "name": "Photo-Comic/Fumetti",
+      "file": "art/072.webp",
+      "master": "art_src/generated/072.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Photo-Comic/Fumetti. Exactly three sequential panels made from photorealistic staged photographs of a clearly adult fictional human Nori, age 26, short dark bob, orange rain jacket and teal scarf: noticing a glowing seed, reaching toward it, sharing delighted look with tiny potted sprout prop. Real skin, woven fabric, practical garden set, coherent photographic lighting and camera framing. No drawing, anime eyes, actual known person, speech balloons or text.",
+      "generationFile": "exec-164ac34d-7b96-4854-9ae9-a062df923520.png",
+      "sha256": "2ad2347fc02b3ecbc3856d0cd0531ab4b80c162cbcca7cad2ee3586bff2a27df",
+      "masterSha256": "6115d4fcbf70f615cf7ac53ed94a9caf2f1d146ce733cb83cc4fb2576cb2d529"
+    },
+    {
+      "id": 73,
+      "name": "Pastel Dream Comic",
+      "file": "art/073.webp",
+      "master": "art_src/generated/073.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Pastel Dream Comic. Nori lies in a meadow reaching toward a luminous seed drifting among oversized translucent flowers; sprout companion floats gently on a leaf nearby. Soft chalky pastel marks, powdery edges, peach/lavender/mint, hazy layered light and tender dreamlike composition. Materials and atmosphere visibly pastel; avoid polished cel outlines, generic flat gradients or too much detail.",
+      "generationFile": "exec-0f8a06f1-7345-4c3f-a8f0-dc53e14e5347.png",
+      "sha256": "0d23ea17a923665bf99b9811000a77aa8ebe7d1923f7634bd648ccf25829abaa",
+      "masterSha256": "17f3d5b76b831081e1b8b5c13bc9cf0759242bb1ccccae6721cb913d74c413e4"
+    },
+    {
+      "id": 74,
+      "name": "Art Deco Futurist Comic",
+      "file": "art/074.webp",
+      "master": "art_src/generated/074.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Art Deco Futurist Comic. Nori and sprout enter a soaring fictional seed conservatory, framed by stepped geometric towers, symmetrical fan-like ribs, streamlined machines and disciplined gold/black/teal shapes. Elegant angular figure staging, glamorous architectural perspective, crisp decorative geometry and restrained metallic highlights. Original civic sci-fi scene; no religious halos, logos, text or militaristic emblems.",
+      "generationFile": "exec-0e61960e-c4fb-4f04-96a8-f9e391c721f3.png",
+      "sha256": "40a7ada21551f20abb8cd47c5ffc981c554f2f65e64efb15782c761adcee28be",
+      "masterSha256": "e02fcad54c39b6a425294cdedebeabdac32fcc2d54f44429ea6f4c46c99dad5c"
+    },
+    {
+      "id": 75,
+      "name": "Scratchboard Mystery Comic",
+      "file": "art/075.webp",
+      "master": "art_src/generated/075.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Scratchboard Mystery Comic. Nori peers into a dark greenhouse to discover seed footprints revealed in a shaft of light, sprout behind. True scratchboard appearance: bright white razor-scratched lines and stippled highlights cut into a predominantly solid black surface. Fine incised hair, grass, rain and glass reflections, dramatic investigative shadow shapes. No painterly gray wash or generic neon outline.",
+      "generationFile": "exec-2cffa062-3eaf-43f8-83ba-0f60f9728b5d.png",
+      "sha256": "568af8564d31bb5b88554eb7c82d8602d95db3d521fb94f155778d59ffcfaae5",
+      "masterSha256": "3f3c170d46ee848a38297058631e5d0ea24e757de21934689875195cb536d8ba"
+    },
+    {
+      "id": 76,
+      "name": "Educational Adventure Comic",
+      "file": "art/076.webp",
+      "master": "art_src/generated/076.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Educational Adventure Comic. Three readable narrative panels: Nori and sprout reach a dry garden, examine a simple rainwater channel, redirect collected water toward the seed bed and celebrate a new leaf. Show observation, problem-solving and consequence with clear action, explanatory arrows only where useful, friendly precise comic drawing, lively orange/teal/green. No fake data or text.",
+      "generationFile": "exec-69d5937d-b0be-4af1-b032-1e1ced9310c6.png",
+      "sha256": "982c53e8f022325f9c4986427943a4c5bf1081c7be0fa58bd3cef0dab1e25cd4",
+      "masterSha256": "76c4e5129cd2ade8b5b78c932183610d9718df5fc92db1c0d31fcb649d5ea69b"
+    },
+    {
+      "id": 77,
+      "name": "Dieselpunk Action Comic",
+      "file": "art/077.webp",
+      "master": "art_src/generated/077.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Dieselpunk Action Comic. Nori and sprout race along a giant fictional interwar-style industrial crawler to rescue seed from a conveyor. Riveted steel, exposed piston machinery, smoky exhaust, heavy practical coats and industrial scale; dynamic low-angle action, gritty black brush inks, restrained ochre/teal/charcoal. No real military uniforms, flags, war insignia or famous vehicle designs.",
+      "generationFile": "exec-32a8b2c3-f876-4f0e-b720-fc5c0ebab101.png",
+      "sha256": "43496faf794d1a1d5042b642a450d36e2ac7c4601e9c205eae6e846f067f428a",
+      "masterSha256": "6ca823f27565abd0c4704e02495037d04869012e546c0dc726d40e17a39c199d"
+    },
+    {
+      "id": 78,
+      "name": "Monoline Minimalist Comic",
+      "file": "art/078.webp",
+      "master": "art_src/generated/078.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Monoline Minimalist Comic. One elegant continuous-weight black line describes Nori's bob, face, orange coat outline and teal scarf as they gently pass a seed toward the sprout pot. Sparse white background, consistent thin rounded monoline, few flat accent shapes, purposeful spacing and readable gesture. No crosshatching, variable brush weight, gray shading or detailed scenery. Distinct from a fully geometric abstraction.",
+      "generationFile": "exec-eb8fc571-7286-4bfc-9055-22c8f6994e2e.png",
+      "sha256": "12df84eabd5ff4c7e39af0c9670c72c16955910c6135cd5880bade4630b8f51e",
+      "masterSha256": "3d57888d29b4d310efd44a46a81d93a796cf614e489d6fcd68feab2bd5d49c93"
+    },
+    {
+      "id": 79,
+      "name": "Medieval Tapestry Comic",
+      "file": "art/079.webp",
+      "master": "art_src/generated/079.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Medieval Tapestry Comic. Nori and sprout journey toward a luminous seed tree within a woven narrative textile. Flattened side-on figures, repeating leafy border, stylized beasts and flowers, earthy wool red/gold/green/blue, visibly interlaced threads and stitched contours. Figure and ground formed by woven texture, no painterly gradient, copied heraldry, religious symbols or pseudo-medieval text.",
+      "generationFile": "exec-a3a441e5-d97f-474c-896c-c1e57e74d9c7.png",
+      "sha256": "5b511ba2c0b5989cf8248af1253b543a6542b4fa69e10c777033d14c82565163",
+      "masterSha256": "cc8528dd5c128303eac6cb85050c9b64b7b7c3ed7ce2cc531f2a527ac56441e3"
+    },
+    {
+      "id": 80,
+      "name": "Reaction Webcomic Style",
+      "file": "art/080.webp",
+      "master": "art_src/generated/080.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Reaction Webcomic Style. Three horizontal comic panels: Nori sees a tiny seed, leans in with exaggerated hopeful eyes, then a ridiculously huge leaf pops out and the face snaps into an enormous delighted shock while sprout looks smug. Extreme expressive facial change is the joke. Simple economical digital lines, flat colors, uncluttered background, intentionally contrasting close-up final reaction. No identical poses or words.",
+      "generationFile": "exec-979c1805-716e-4e95-9a07-fed14e902d6c.png",
+      "sha256": "9f7751853271dc6d075b6211082263e4ca92c448da16ab2018aa5707b77053c9",
+      "masterSha256": "fb37df39e0aca5a88be548ba6a540c5b342b22885571e1cbfda8eba937fd779f"
+    },
+    {
+      "id": 81,
+      "name": "Cubist Comic",
+      "file": "art/081.webp",
+      "master": "art_src/generated/081.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Cubist Comic. Nori, sprout and seed reconstructed from intersecting angular planes and simultaneous viewpoints: profile and frontal face fragments, faceted orange coat/teal scarf, tabletop and pot tilted into readable flattened space. Coherent painted geometry, ochre/blue/charcoal, subtle collage-like grain, rhythmic analytic fragmentation. A deliberate cubist narrative still life, not simply low-poly 3D or triangles sprinkled over a cartoon.",
+      "generationFile": "exec-c62e218c-4849-4b4c-bc20-bf681c5f1a6e.png",
+      "sha256": "6565be5fca9a95cdf4189fb8820ffd2f015d6c39689bf5ade3a03da61fa6c5d1",
+      "masterSha256": "f651080149dfe2dee4bb630582076adcae009a136966421a975c05b883947603"
+    },
+    {
+      "id": 82,
+      "name": "Vaporwave Neon Comic",
+      "file": "art/082.webp",
+      "master": "art_src/generated/082.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Vaporwave Neon Comic. Nori and sprout find the seed in an uncanny empty retro-futurist glass conservatory at dusk. Saturated magenta/cyan/ultramarine neon, nostalgic early-digital gradients, luminous reflections, stylized sunset, sparse architectural grid receding in perspective and subtly surreal space. Distinct mood and glossy digital surfaces, clear central human silhouette. No brands, fake Japanese text or generic rainbow rings.",
+      "generationFile": "exec-553c7bd8-9c28-4844-a073-12e59da8b7b3.png",
+      "sha256": "e0e8c5efc20478b1f7cc509700f56328ab404e8949cbd99dea07fd7f7df2bc50",
+      "masterSha256": "a96d887771de1c58b3dcf618d1c163392d1c1f77e5b348504b7af42207cdda4b"
+    },
+    {
+      "id": 83,
+      "name": "Byzantine Icon Comic",
+      "file": "art/083.webp",
+      "master": "art_src/generated/083.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Byzantine Icon Comic. An original secular frontal icon-like composition: Nori in orange robe and teal scarf gently presents the seed, sprout beside, within a patterned arched garden setting. Flattened solemn symmetry, stylized elongated features, rich burnished gold ground, jewel pigments, fine repeated decorative tessera-like details and tempera-like surface. Do not copy religious figures, halos, crosses, actual icons or inscriptions.",
+      "generationFile": "exec-ee36bba1-dbe4-46fb-8a17-65a576d26512.png",
+      "sha256": "50b18322cdb3e64264da4ddc36fdcc03a9b3f0547bdc08af1cd2c44c30bb55af",
+      "masterSha256": "f6dabf69268b7971a6b89e8bb93bc47666aa97e05644774ffd147d1462fedcd7"
+    },
+    {
+      "id": 84,
+      "name": "Swiss Design Infographic Comic",
+      "file": "art/084.webp",
+      "master": "art_src/generated/084.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks or UI. Use only text explicitly requested below; otherwise no text. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Swiss Design Infographic Comic. A true typographic Swiss modernist print design explains a seed growing: huge precise black sans-serif numerals 1 2 3, LEFT seed pictogram, MIDDLE root cross-section pictogram, RIGHT shoot pictogram, clear thin directional arrows, strict modular grid and generous asymmetric white space, red and teal accents, flat vector-sharp geometry. Tiny geometric orange/teal Nori figure acts as guide at lower-left; tiny sprout pot as final symbol. Exact large English words allowed and required: SEED, ROOT, SHOOT. No other text. Typography and information hierarchy dominate, NOT a large generic cartoon of Nori. No shadows, gradients, fake statistics, chrome or UI.",
+      "generationFile": "exec-d18703fe-ab4a-4a85-bc6c-711981742f33.png",
+      "sha256": "e2718e44b0172128c0168fd8c6a7d57463301bcef232213b8b83d7e2f9eb1da3",
+      "masterSha256": "8e83a0a6d97fdde8037b687186a236e44fa9e089c254b12ca7e90528f0e08ca9"
+    },
+    {
+      "id": 85,
+      "name": "Shadow-Puppet Comic",
+      "file": "art/085.webp",
+      "master": "art_src/generated/085.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Shadow-Puppet Comic. Original theatrical shadow-puppet scene: jointed cutout Nori with bob/scarf profile holds the seed while sprout casts a playful shadow in a forest. Visible articulated puppet joints, intricate perforated decorative edges, layered translucent leather/paper silhouettes against a warm backlit screen, delicate rods subtly visible. Flat stage storytelling, not a standard black silhouette with painted shading.",
+      "generationFile": "exec-a04b2e1f-4c25-4897-a5be-3ac930b549aa.png",
+      "sha256": "090c265b900be7899e8be582e8104b76aef981c8f1a508ff9d7d97ec2d097eae",
+      "masterSha256": "2c613b587e8c1d6452d5910215f502edebabfbe42826cd80faa0596aa8352d26"
+    },
+    {
+      "id": 86,
+      "name": "Copper Engraving Comic",
+      "file": "art/086.webp",
+      "master": "art_src/generated/086.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Copper Engraving Comic. Nori examining the seed beside sprout in a richly observed botanical garden, rendered as a fine copperplate intaglio print. Extremely precise tapered engraved lines, disciplined crosshatching, stipple, fine hair/cloth contours and elegantly hatched foliage; warm black/brown ink impressed into ivory rag paper. Tonality entirely from line density, no gray wash or digital gradient.",
+      "generationFile": "exec-cd252d96-7d8f-48ad-82b2-ea03eb9d8537.png",
+      "sha256": "7c581a970ca0781f535293fd637cdf3f1f6fe7f66194fcceb7dc8fa7de953ee2",
+      "masterSha256": "3dc6a053238d846d305e2c40af42a88730347e9ea9541d2c47ee96fc5adeed42"
+    },
+    {
+      "id": 87,
+      "name": "Quilt Folk Comic",
+      "file": "art/087.webp",
+      "master": "art_src/generated/087.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Quilt Folk Comic. A tactile patchwork quilt tells Nori and sprout's seed journey in three adjoining fabric blocks. Appliqué orange jacket, teal scarf, patterned cloth leaves, hand-stitched outlines, visible seams, fabric weave, batting relief and imperfect handmade joins. Warm folk color harmony and simple readable characters. Real textile construction qualities, not a flat cartoon with a grid overlay.",
+      "generationFile": "exec-ff3900e3-cd49-4aee-a2bc-38157baaac6d.png",
+      "sha256": "95efd112c6cefc6e72172a20c5a06b1724099114aa7bbf28d4786fd2132463ac",
+      "masterSha256": "ea7b665ac72a4531b97b7366119ecc99d14131a712dcd4577aa0c5612743b4e7"
+    },
+    {
+      "id": 88,
+      "name": "Brutalist Webcomic",
+      "file": "art/088.webp",
+      "master": "art_src/generated/088.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Brutalist Webcomic. A deliberately raw but readable three-panel webcomic: Nori fails to catch seed, sprout succeeds, deadpan close-up. Huge stark black shapes, blunt uneven digital pen marks, exposed panel boundaries, aggressive asymmetrical scale, large empty white space and one uncompromising orange accent. Direct visual humor and rough intentional drawing. No polished soft rendering, decorative gradients, UI or text.",
+      "generationFile": "exec-02c2540e-a76a-449b-b48f-d9f5c90e8711.png",
+      "sha256": "37fa240344d25516ccb28d6a54b158aadd3d644f33ac9ddce169f2a89ffaf6c9",
+      "masterSha256": "3728c1c812cd93f5e63af5c7898251e132cb35ac2727eb5e29a9796326b4dcc7"
+    },
+    {
+      "id": 89,
+      "name": "Ancient Fresco Comic",
+      "file": "art/089.webp",
+      "master": "art_src/generated/089.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Ancient Fresco Comic. Nori and sprout returning seed to a stylized garden, painted as an original ancient wall fresco. Mineral ochre, terracotta, green earth and chalk white absorbed into matte plaster; broad flattened figure gestures, softly worn edges, subtle cracks and missing plaster, simple architectural frame. Image structure follows mural painting, no generic modern cartoon beneath artificial aging. No copied archaeological scene or sacred symbols.",
+      "generationFile": "exec-1326fa89-6b35-4394-9a07-af4cd38c51c6.png",
+      "sha256": "d61f96640c2ad8cef75ae0edfc794a40baffea6ee873edb17be63af1d03fecf9",
+      "masterSha256": "8a2a0c2d13b9eebac05dc4a7a4333dc0a9687274df63c6dc8ab9a6d0962c5876"
+    },
+    {
+      "id": 90,
+      "name": "Cyanotype Adventure Comic",
+      "file": "art/090.webp",
+      "master": "art_src/generated/090.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Cyanotype Adventure Comic. Original cyanotype photogram-like adventure of Nori crossing a fern bridge with sprout toward a seed-shaped white light. Deep Prussian-blue paper, delicate pale botanical silhouettes, translucent overlapping leaf impressions, uneven sensitized edges and contact-print tonal detail. A coherent narrative silhouette integrated into the botanical cyanotype. Monochrome blue/white, not technical blueprint grids or glowing neon line art.",
+      "generationFile": "exec-700532fd-88c1-47d0-b8c3-956642e5f86d.png",
+      "sha256": "891b5548a9474da619f9ccbbac429240c852536cb497507899cb6e8a1d5eb548",
+      "masterSha256": "c946fa6e9d036425f4ea821b2ae96a4b209f0c6d6d590c02f290a9e76410af8b"
+    },
+    {
+      "id": 91,
+      "name": "Dada Collage Comic",
+      "file": "art/091.webp",
+      "master": "art_src/generated/091.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Dada Collage Comic. A witty irrational handmade collage of Nori and sprout searching for seed: mismatched photographic eyes, torn orange fabric jacket, cutout hand, oversized antique key, fragmented greenhouse geometry and absurd changes of scale. Tangible scissors, glued paper and newsprint-like scraps with nonreadable marks only, bold red/black/cream interruptions. Purposeful playful disruption, no copyrighted photos, meaningful real text or generic flat shapes.",
+      "generationFile": "exec-c220fe27-5a12-4409-b354-264926d6e5c2.png",
+      "sha256": "562f6eaca96a63b8869dbbc2279a3d67db06a6ad3f13fd5b461285a027e3d3c1",
+      "masterSha256": "31f9375d80f922748c6205415b45d01b9dc82dff8d933a230323e6d43765837f"
+    },
+    {
+      "id": 92,
+      "name": "Constructivist Propaganda Comic",
+      "file": "art/092.webp",
+      "master": "art_src/generated/092.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Constructivist Propaganda Comic. Original nonpolitical garden-mobilization poster-comic: Nori's strong diagonal outstretched hand passes a luminous seed toward a mass of stylized growing leaves, sprout in foreground. Forceful red/black/cream geometry, diagonal wedges, stark photomontage-like figure crops, disciplined visual hierarchy and rough printed texture. No leaders, real movements, flags, stars, military or extremist insignia, slogans or readable text.",
+      "generationFile": "exec-0332e084-c091-4050-99dc-5c03288475ca.png",
+      "sha256": "68024cd111cad4810444ef08fc82426cc90ea77eb7d62f9d84111b14cee4043f",
+      "masterSha256": "d7e1f87eedfcfba36c6378e886fc78564cc6cd92535386ebc2513a8c7d0bdd3f"
+    },
+    {
+      "id": 93,
+      "name": "Mosaic Tile Comic",
+      "file": "art/093.webp",
+      "master": "art_src/generated/093.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Mosaic Tile Comic. Nori holding the luminous seed beside sprout as a richly crafted figurative mosaic panel. Every contour and color area formed from distinct small irregular ceramic/glass tesserae with visible grout; tile rows curve purposefully around face, hand, scarf and leaves. Ochre/teal/cream/blue, subtle reflective facets and authentic material relief. Not a generic cartoon with square grid overlaid.",
+      "generationFile": "exec-90da3234-a2ea-4677-9aa5-bdb0e5cd6b2a.png",
+      "sha256": "1613406c8ad56e75d5714c5c147db93b77cc50dba67bc8f547651e6ab291d84a",
+      "masterSha256": "2dd5018f32ec5c5c13e606cb5d738a973df4662285f034629349c236570fe865"
+    },
+    {
+      "id": 94,
+      "name": "Asemic Experimental Comic",
+      "file": "art/094.webp",
+      "master": "art_src/generated/094.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Asemic Experimental Comic. Nori and sprout's seed journey dissolves into flowing invented nonlinguistic marks across cream paper: clear small character anchor at left, hand/seed shapes emerging through abstract handwritten gestures, then a sprouting form at right. Expressive ink rhythm, deliberate white space, variable strokes and meaning suggested without readable language. No real script, letters, words, signatures or random decorative pseudo-text blocks.",
+      "generationFile": "exec-565f4ab1-61d5-40b1-9f37-4d453c6736ac.png",
+      "sha256": "9ad1e1154c8f39aaec75f1f860da107bd0120ef509a3f8736f22f700af60830f",
+      "masterSha256": "81175a6f874795576892fd03e3fa303b76b2f0393cdaa25426bb8f1e14e6d76a"
+    },
+    {
+      "id": 95,
+      "name": "Chalkboard Lesson Comic",
+      "file": "art/095.webp",
+      "master": "art_src/generated/095.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. Chalkboard Lesson Comic. Nori's recognizable explorer outline and sprout drawn in white/yellow/teal/orange chalk on deep green-black board, explaining seed-to-root-to-leaf in a clean three-stage diagram. Powdery chalk strokes, erased ghost marks, finger-smudged shading, simple cross-section of soil, meaningful connecting arrows and clear hierarchy. No fake equations, inaccurate data or legible text required. Visibly chalk material.",
+      "generationFile": "exec-42857d70-f58d-431a-81e7-c738821deb53.png",
+      "sha256": "f6ee58f7e257a8e43a086fb3a2b2813d183533c4314fd2d3793962626ebeec5c",
+      "masterSha256": "5faa0aeeff8052739853cc8d2bfd85584337680780c7a3a60ef02ff6123e7251"
+    },
+    {
+      "id": 96,
+      "name": "X-Ray / Medical Imaging Comic",
+      "file": "art/096.webp",
+      "master": "art_src/generated/096.webp",
+      "prompt": "Create ONE final comic-reference thumbnail, landscape composition approximately 1.472:1, readable at 480x326. Reference image is ONLY the identity guide, never copy its pose, geometric drawing or background. Original fictional young adult explorer Nori: short blue-black bob, tan skin, orange jacket, teal scarf; tiny companion is a two-leaf sprout in a terracotta pot. Preserve recognizable costume accents as appropriate to medium. Shared story: discovering and protecting a luminous seed on a journey. Art-direct the scene so this reference's particular strength is unmistakable. No artist imitation, famous characters, logos, signatures, watermarks, UI, typography or captions. Use genuine material and compositional qualities rather than applying a surface filter to a generic cartoon. X-Ray / Medical Imaging Comic. Clearly fictional illustrative imaging comic, NOT a real diagnostic scan. Nori's orange-jacket/teal-scarf silhouette is shown beside an imaginative radiographic cutaway of the hand holding a seed and the sprout pot revealing fine root architecture. Large coherent translucent cyan/white skeletal and botanical structures on deep charcoal, two sequential panels connect outside appearance to inside structure. Genuine imaging-like density contrast and ghosted overlapping forms, not neon outline or blueprint. No disease claims, labels, real patient data or gruesome detail.",
+      "generationFile": "exec-5e2f204f-a50f-4f76-a6fe-78bc52dafbb9.png",
+      "sha256": "1aa96746ab5e6241e3ecc81d27d36b69011008be5ca61ad6f971b9c59615c1b4",
+      "masterSha256": "6f79fb89527551f7398043c8dc2f37d1a7a5eaaa7d19d6ff9431b50e55686b2f"
+    }
+  ]
+}

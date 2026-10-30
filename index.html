@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ed">
+  <meta name="description" content="Find a comic art style for the story you want to tell. A beginner-friendly, selection-first guided journey across 96 visual inspirations.">
+  <title>Comic Style Finder v0.1.0 · Comic Story Studio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#wizard">Skip to style finder</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#wizard" class="brand" aria-label="Comic Style Finder, start"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>comic<span class="brand-slash">/</span>style</span></a>
+      <nav class="header-links" aria-label="Main"><button type="button" class="header-link" data-action="restart">Reset finder</button><button type="button" class="header-link" data-action="browse">Browse all 96 <span aria-hidden="true">↗</span></button></nav>
+      <span class="version-pill"><span class="live-dot" aria-hidden="true"></span> Early release <strong>v0.1.0</strong></span>
+    </div>
+  </header>
+  <main>
+    <div class="wizard-wrap" id="wizard">
+      <div class="wizard-top">
+        <div class="route-caption"><span class="asterisk">✳</span> A CREATIVE SHORTCUT</div>
+        <div class="step-progress" role="group" aria-label="Style finder steps" id="progressNav"></div>
+      </div>
+      <div id="stageView" aria-live="polite"></div>
+      <footer class="page-foot"><span>MADE FOR STORYTELLERS, NOT JUST ARTISTS</span><span>96 inspirations · Offline-friendly · Your choices stay in this browser</span></footer>
+    </div>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
